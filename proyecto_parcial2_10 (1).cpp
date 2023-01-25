@@ -171,6 +171,8 @@ void p_dmenu()
 void p_ingreso()
 {
 	doc = fopen("proyect.txt","w");
+	
+	
 	//////////////////////////////////////////////
 	//VALIDACION DE NOMBRE DE EMPRESA
 	/////////////////////////////////////////////
@@ -389,6 +391,11 @@ void p_ingreso()
 			}while (getch());
 		}
 	}
+	
+	//////////////////////////////////////////////
+	//VALIDACION DE link pagina de la empresa
+	/////////////////////////////////////////////
+	
 	
 	regex link_expr("((http|https)://)(www.)?[a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)"); //Ejemplo http://www.asdasdasd.com
 	while(true){

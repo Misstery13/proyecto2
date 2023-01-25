@@ -6,7 +6,7 @@ Integrantes:
 3...  Richard 
 Curso: Auto1/1
 Fecha: ....*/
-
+//nose que escribir
 //Definici?n de Librer?as
 #include<iostream>
 #include<stdio.h>  

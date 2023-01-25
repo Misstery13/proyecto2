@@ -1,7 +1,7 @@
 /*Proyecto del II Parcial
 Tema: Porcentaje de automatizaci?n de las empresas
 Integrantes:
-1... 
+1... Angel
 2... Diana Melena
 3...  Richard 
 Curso: Auto1/1

@@ -3,7 +3,9 @@ Tema: Porcentaje de automatizaci?n de las empresas
 Integrantes:
 1... Angel
 2... Diana Melena
-3...  Richard 
+3...  Richard
+4... Bryan 
+ya pude xd 
 Curso: Auto1/1
 Fecha: ....*/
 //nose que escribir

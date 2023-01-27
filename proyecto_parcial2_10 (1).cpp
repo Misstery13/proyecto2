@@ -3,7 +3,8 @@ Tema: Porcentaje de automatizaci?n de las empresas
 Integrantes:
 1... Angel
 2... Diana Melena
-3...  Richard
+3...  Richard 
+LA BASE DE DATOS DE VIRUS HA SIDO ACTUALIZADA
 4... Bryan 
 ya pude xd 
 Curso: Auto1/1

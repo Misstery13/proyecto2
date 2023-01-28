@@ -22,7 +22,7 @@ Fecha: ....*/
 using namespace std;
 
 //Definici?n de Variables Globales
-int limf=40, limc=100, i, j, op;
+int limf=40, limc=100, i, j, op, c, n, cc;
 char rp;
 FILE *doc;
 //Definici?n de Estructuras de Datos
@@ -64,6 +64,8 @@ void p_datos();
 void p_dmenu();
 //procedimiento de ingreso de datos 
 void p_ingreso();
+//Procedimiento para nomina 
+void p_nomina();
 
 //Funci?n Principal
 int main()
@@ -159,6 +161,7 @@ void p_dmenu()
 		
 		case 3:
 				gotoxy(41,7);cout<<"NOMINA DE EMPRESAS";
+				p_nomina();
 		break;
 		
 		case 4:
@@ -443,5 +446,25 @@ void p_ingreso()
 	fprintf(doc,"%s %s \n","Link de la pagina               : " ,de.link);
 	fclose(doc);
 }
-
+//Procedimiento de Nomina
+void p_nomina()
+{
+	cc=0;
+	gotoxy(22,8);
+	doc = fopen("proyect.txt","rt");
+	while((c=getc(doc))!=EOF)
+	{
+		if(c == '\n')
+		{
+			n++;
+			cc++;
+			gotoxy(22,8+cc);
+		}
+		else
+		{
+			putchar(c);
+		}
+	}
+	fclose(doc);//Cerrar el archivo
+}
 

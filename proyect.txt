@@ -1,8 +1,8 @@
-Nombre de la empresa            :  Cerveceria Nacional 
-Responsable                     :  Angel Rodriguez Catuto 
-Producto estrella               :  Cerveza Pilsener 
-Direccion de la empresa	        :  Santa Elena 4234fdf 
-Ciudad                          :  Gye 
-Telefono convencional o celular	:  0963610580 
-Correo electronico empresarial  :  nacional@pilsener.com 
-Link de la pagina               :  https://www.cervecerianacional.com 
+Nombre de la empresa            :  asdasd 
+Responsable                     :  asdasd 
+Producto estrella               :  asdasd 
+Direccion de la empresa	        :  asda 
+Ciudad                          :  sdasd 
+Telefono convencional o celular	:  34 
+Correo electronico empresarial  :  diana@sq.com 
+Link de la pagina               :  https://www.couwu.com 

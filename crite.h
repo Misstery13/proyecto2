@@ -1,7 +1,7 @@
 #include<iostream>
 //Declaracion de funcion 
 
-float F_Criterios(float a, float b, float c, float d, float e, float f, float j)
+float F_Criterios(float a, float b, float c, float d, float e)
 {
-	return((a+b+c+d+e+f+j)/7);
+	return((a+b+c+d+e)/5);
 }

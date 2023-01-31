@@ -33,8 +33,6 @@ struct criterios
 	float c3; //criterio 3
 	float c4; //criterio 4
 	float c5; //criterio 5
-	float c6; //criterio 6
-	float c7; //criterio 7
 	float ct; //Total de criterios
 };
 struct empresa
@@ -66,6 +64,8 @@ void p_dmenu();
 void p_ingreso();
 //Procedimiento para nomina 
 void p_nomina();
+//Procedimiento para graficos
+void p_graficos();
 
 //Funci?n Principal
 int main()
@@ -166,6 +166,7 @@ void p_dmenu()
 		
 		case 4:
 				gotoxy(41,7);cout<<"GRAFICA DE EMPRESAS";
+				p_graficos();
 		break;
 		
 		case 5:
@@ -429,10 +430,8 @@ void p_ingreso()
 	gotoxy(22,19);cout<<"Criterio 3 de 0-100%: ";cin>>de.dc.c3;gotoxy(46,19);cout<<"%";
 	gotoxy(22,20);cout<<"Criterio 4 de 0-100%: ";cin>>de.dc.c4;gotoxy(46,20);cout<<"%";
 	gotoxy(22,21);cout<<"Criterio 5 de 0-100%: ";cin>>de.dc.c5;gotoxy(46,21);cout<<"%";
-	gotoxy(22,22);cout<<"Criterio 6 de 0-100%: ";cin>>de.dc.c6;gotoxy(46,22);cout<<"%";
-	gotoxy(22,23);cout<<"Criterio 7 de 0-100%: ";cin>>de.dc.c7;gotoxy(46,23);cout<<"%";
 	
-	de.dc.ct=F_Criterios(de.dc.c1, de.dc.c2, de.dc.c3, de.dc.c4, de.dc.c5, de.dc.c6,de.dc.c7);
+	de.dc.ct=F_Criterios(de.dc.c1, de.dc.c2, de.dc.c3, de.dc.c4, de.dc.c5);
 	
 	gotoxy(22,24);cout<<"Porcentaje de Automatización: ";gotoxy(51,24);cout<<" "<<de.dc.ct;cout<<"%";
 
@@ -466,5 +465,20 @@ void p_nomina()
 		}
 	}
 	fclose(doc);//Cerrar el archivo
+}
+
+//Procedimiento de Graficos
+void p_graficos()
+{
+	float data[] = {de.dc.c1,de.dc.c2,de.dc.c3,de.dc.c4,de.dc.c5};
+    int max_value = 100;
+
+    gotoxy(22,8);for (int i = 0; i < 5; i++)  {
+        cout << i+1 << ": "; 
+        for (int j = 0; j < data[i] * 100 / max_value; j++) {
+            printf("%c",178);
+        }
+        cout <<endl;
+	}
 }
 

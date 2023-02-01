@@ -448,23 +448,47 @@ void p_ingreso()
 //Procedimiento de Nomina
 void p_nomina()
 {
-	cc=0;
+	int n_lineas = 18;//Numero de lineas a imprimir
+	
+	vector<string> lineas;//Vector que guarda cada linea de archivo de txt como una cadena de caracteres para acceder a las líneas e imprimirlas en pantalla de manera controlada
+	
+	string linea;//Almacena temporalmente las lineas del archivo txt
+	string res_usuario;//Variable para guardar la respuesta del usuario (siguiente, atras, salir)
+	
+	//Abrir el archivo txt y almacenar su informacion en el vector 
 	gotoxy(22,8);
 	doc = fopen("proyect.txt","rt");
-	while((c=getc(doc))!=EOF)
+	while((c=getc(doc)) != EOF)
 	{
+		linea += c;//Seguir usando la variable linea para el almacenamiento de datos luego de ser vaciada el if()
 		if(c == '\n')
 		{
-			n++;
-			cc++;
-			gotoxy(22,8+cc);
-		}
-		else
-		{
-			putchar(c);
+			lineas.push_back(linea);//Agrega al vector lineas, la informacion que contiene la variable linea
+			linea.clear();//Se limpia el contenido de la variable linea
 		}
 	}
 	fclose(doc);//Cerrar el archivo
+	
+	int inicio = 0;//Contador que permite moverse entre "paginas"
+	while (true){
+		for(int i = inicio; i < inicio + n_lineas; i++){ //Comienza a imprimir por lineas la informacion dentro del archivo txt   
+			if(i >= lineas.size()){ //Cuando el contador i sea mayor o igual lineas.size se detiene el ciclo for con la funcion break. lineas.size permite imprimir...
+					break;			//... la informacion almacenada en el vector lineas
+			}
+			gotoxy(22,8 + i - inicio);//Imprimi en la ubicacion deseada con el gotoxy
+			cout<<lineas[i];
+		}
+		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): ";
+		gotoxy(87,38);cin>>res_usuario;
+		if (res_usuario == "s") {
+        	inicio += n_lineas;//El contador aumenta 
+        } else if (res_usuario == "a"){
+        	inicio -= n_lineas;//El contador disminuye
+		}
+        	if (res_usuario == "q") {
+        	  break;
+        	}
+    }
 }
 
 //Procedimiento de Graficos

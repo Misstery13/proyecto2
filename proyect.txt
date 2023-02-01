@@ -5,4 +5,49 @@ Direccion de la empresa	        :  asda
 Ciudad                          :  sdasd 
 Telefono convencional o celular	:  34 
 Correo electronico empresarial  :  diana@sq.com 
-Link de la pagina               :  https://www.couwu.com 
+Link de la pagina               :  https://www.couwu.com  
+
+Nombre de la empresa            :  sdgf 
+Responsable                     :  sfgs 
+Producto estrella               :  aty 
+Direccion de la empresa	        :  aty 
+Ciudad                          :  ll 
+Telefono convencional o celular	:  099 
+Correo electronico empresarial  :  1@g.com 
+Link de la pagina               :  https://www.g.com 
+
+Nombre de la empresa            :  Cerveceria Nacional 
+Responsable                     :  Angel Rodriguez Catuto 
+Producto estrella               :  Cerveza Pilsener 
+Direccion de la empresa	        :  Santa Elena 4234fdf 
+Ciudad                          :  Gye 
+Telefono convencional o celular	:  0963610580 
+Correo electronico empresarial  :  nacional@pilsener.com 
+Link de la pagina               :  https://www.cervecerianacional.com 
+
+Nombre de la empresa            :  hp
+Responsable                     :  una persona 
+Producto estrella               :  pc
+Direccion de la empresa	        :  su empresa 
+Ciudad                          :  no se
+Telefono convencional o celular	:  08887888
+Correo electronico empresarial  :  info@hp.com 
+Link de la pagina               :  https://www.hp.com 
+
+Nombre de la empresa            :  dell 
+Responsable                     :  su dueño 
+Producto estrella               :  laptop
+Direccion de la empresa	        :  en algun lugar del planeta
+Ciudad                          :  peor no se
+Telefono convencional o celular	:  098825 
+Correo electronico empresarial  :  1222@dell.com 
+Link de la pagina               :  https://www.dell.com 
+
+Nombre de la empresa            :  Norma
+Responsable                     :  quien sabe
+Producto estrella               :  cuaderno
+Direccion de la empresa	        :  ni idea
+Ciudad                          :  tampoco se
+Telefono convencional o celular	:  00000009
+Correo electronico empresarial  :  mmmmm@norma.com 
+Link de la pagina               :  https://www.norma.com 

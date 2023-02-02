@@ -18,6 +18,8 @@ Fecha: ....*/
 #include<unistd.h>
 #include <conio.h>
 #include <regex>
+#include <sstream>
+#include <string>
 #include"crite.h"
 using namespace std;
 
@@ -146,8 +148,26 @@ void p_dmenu()
 	gotoxy(3,11);cout<<"4. Grafico.";
 	gotoxy(3,12);cout<<"5. Salir.";
 	gotoxy(21,38);cout<<"Digite la opcion a utilizar: ";
-	gotoxy(50,38);cin>>op;
+	
+	bool valid = false;
+	while (!valid) {
+		gotoxy(50,38);
+		if (cin >> op && op >= 1 && op <= 5) {
+			valid = true;
+		} else {
+			gotoxy(21,39);cout << "Ingrese una opcion valida. *Presione Enter para continuar*" << endl;
+			gotoxy(79,39);int key = getch();
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		}do {
+			gotoxy(50,38);cout <<"                     "<<endl;
+			gotoxy(21,39);cout << "                                                          " << endl;
+			break;
+		}while(getch());
+	}
+
 	getchar();
+
 	switch(op)
 	{
 		case 1:
@@ -173,7 +193,9 @@ void p_dmenu()
 				gotoxy(21,40);exit(0);
 		break;
 	}
+	
 }
+
 //procedimiento de ingreso de datos 
 void p_ingreso()
 {

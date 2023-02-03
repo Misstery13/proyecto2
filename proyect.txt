@@ -1,53 +1,40 @@
-Nombre de la empresa            :  asdasd 
-Responsable                     :  asdasd 
-Producto estrella               :  asdasd 
-Direccion de la empresa	        :  asda 
-Ciudad                          :  sdasd 
-Telefono convencional o celular	:  34 
-Correo electronico empresarial  :  diana@sq.com 
-Link de la pagina               :  https://www.couwu.com  
+Nombre de la empresa            :  Chevrolet 
+Responsable                     :  Diana Mata Mancos con lux 
+Producto estrella               :  pollo horneado 
+Direccion de la empresa	        :  mi casa 
+Ciudad                          :  San Francisco Valley 345 
+Telefono convencional o celular	:  092351562 
+Correo electronico empresarial  :  diana@meee.com 
+Link de la pagina               :  https://www.panshalele.com 
+0.000000 0.000000 
 
-Nombre de la empresa            :  sdgf 
-Responsable                     :  sfgs 
-Producto estrella               :  aty 
-Direccion de la empresa	        :  aty 
-Ciudad                          :  ll 
-Telefono convencional o celular	:  099 
-Correo electronico empresarial  :  1@g.com 
-Link de la pagina               :  https://www.g.com 
+Nombre de la empresa            :  qweqweqwe 
+Responsable                     :  aquinga 
+Producto estrella               :  wefdfdfdfdsisis 
+Direccion de la empresa	        :  wiosdfjon3245t34gfv 
+Ciudad                          :  wfoihwpg 
+Telefono convencional o celular	:  23490235 
+Correo electronico empresarial  :  faw@sfwg.com 
+Link de la pagina               :  https://www.comsd.com 
+Porcentaje de Automatización    :  0.000000 
 
-Nombre de la empresa            :  Cerveceria Nacional 
-Responsable                     :  Angel Rodriguez Catuto 
-Producto estrella               :  Cerveza Pilsener 
-Direccion de la empresa	        :  Santa Elena 4234fdf 
-Ciudad                          :  Gye 
-Telefono convencional o celular	:  0963610580 
-Correo electronico empresarial  :  nacional@pilsener.com 
-Link de la pagina               :  https://www.cervecerianacional.com 
+Nombre de la empresa            :  qweqwe 
+Responsable                     :  qweqweqwe 
+Producto estrella               :  uwuwuwu 
+Direccion de la empresa	        :  taeko ohnuki 
+Ciudad                          :  japan 
+Telefono convencional o celular	:  2367 
+Correo electronico empresarial  :  ddd@df.com 
+Link de la pagina               :  https://www.weeee.com 
+Porcentaje de Automatización    :  40.599998 
 
-Nombre de la empresa            :  hp
-Responsable                     :  una persona 
-Producto estrella               :  pc
-Direccion de la empresa	        :  su empresa 
-Ciudad                          :  no se
-Telefono convencional o celular	:  08887888
-Correo electronico empresarial  :  info@hp.com 
-Link de la pagina               :  https://www.hp.com 
+Nombre de la empresa            :  qweqwe 
+Responsable                     :  qweqwe 
+Producto estrella               :  qwe 
+Direccion de la empresa	        :  qweqwe 
+Ciudad                          :  qwe 
+Telefono convencional o celular	:  23435255 
+Correo electronico empresarial  :  etwet@swer.com 
+Link de la pagina               :  https://www.ewrwe.com 
+Porcentaje de Automatización    :  55.599998 
 
-Nombre de la empresa            :  dell 
-Responsable                     :  su dueÃ±o 
-Producto estrella               :  laptop
-Direccion de la empresa	        :  en algun lugar del planeta
-Ciudad                          :  peor no se
-Telefono convencional o celular	:  098825 
-Correo electronico empresarial  :  1222@dell.com 
-Link de la pagina               :  https://www.dell.com 
-
-Nombre de la empresa            :  Norma
-Responsable                     :  quien sabe
-Producto estrella               :  cuaderno
-Direccion de la empresa	        :  ni idea
-Ciudad                          :  tampoco se
-Telefono convencional o celular	:  00000009
-Correo electronico empresarial  :  mmmmm@norma.com 
-Link de la pagina               :  https://www.norma.com 

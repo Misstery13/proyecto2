@@ -151,16 +151,16 @@ void p_dmenu()
 	
 	bool valid = false;
 	while (!valid) {
-		gotoxy(50,38);
+		gotoxy(50,38);         //y
 		if (cin >> op && op >= 1 && op <= 5) {
 			valid = true;
 		} else {
 			gotoxy(21,39);cout << "Ingrese una opcion valida. *Presione Enter para continuar*" << endl;
-			gotoxy(79,39);int key = getch();
+			gotoxy(79,39);int key = getch(); //Espera una tecla cualquiera
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		}do {
-			gotoxy(50,38);cout <<"                     "<<endl;
+			gotoxy(50,38);cout <<"                            "<<endl;
 			gotoxy(21,39);cout << "                                                          " << endl;
 			break;
 		}while(getch());
@@ -199,7 +199,7 @@ void p_dmenu()
 //procedimiento de ingreso de datos 
 void p_ingreso()
 {
-	doc = fopen("proyect.txt","w");
+	doc = fopen("proyect.txt","a");
 	
 	
 	//////////////////////////////////////////////
@@ -390,7 +390,7 @@ void p_ingreso()
   				gotoxy(64,15);int key = getch();
 			do {
 				gotoxy(54,13);cout <<"                                        "<<endl;
-				gotoxy(22,14);cout << "                                                                      " << endl;
+				gotoxy(22,14);cout << "                                                                       " << endl;
 				gotoxy(22,15);cout << "                                          "<< endl;
 				break;
 			}while (getch());
@@ -465,12 +465,14 @@ void p_ingreso()
 	fprintf(doc,"%s %s \n","Telefono convencional o celular	: " ,de.cel);
 	fprintf(doc,"%s %s \n","Correo electronico empresarial  : " ,de.co);
 	fprintf(doc,"%s %s \n","Link de la pagina               : " ,de.link);
+	fprintf(doc,"%s %f \n","Porcentaje de Automatización    : " ,de.dc.ct,"%");
+	fprintf(doc,"\n");
 	fclose(doc);
 }
 //Procedimiento de Nomina
 void p_nomina()
 {
-	int n_lineas = 18;//Numero de lineas a imprimir
+	int n_lineas = 20;//Numero de lineas a imprimir
 	
 	vector<string> lineas;//Vector que guarda cada linea de archivo de txt como una cadena de caracteres para acceder a las líneas e imprimirlas en pantalla de manera controlada
 	

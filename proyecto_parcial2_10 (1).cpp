@@ -65,6 +65,8 @@ void p_datos();
 void p_dmenu();
 //procedimiento de ingreso de datos 
 void p_ingreso();
+//Procedimiento para consultas
+void p_consultas();
 //Procedimiento para nomina 
 void p_nomina();
 //Procedimiento para graficos
@@ -448,17 +450,18 @@ void p_ingreso()
 			}while (getch());
 		}	
 	}
-	
-	gotoxy(22,16);cout<<"---Grado de automatizacion---";
-    gotoxy(22,17);cout<<"Criterio 1 de 0-100%: ";cin>>de.dc.c1;gotoxy(46,17);cout<<"%";
-	gotoxy(22,18);cout<<"Criterio 2 de 0-100%: ";cin>>de.dc.c2;gotoxy(46,18);cout<<"%";
-	gotoxy(22,19);cout<<"Criterio 3 de 0-100%: ";cin>>de.dc.c3;gotoxy(46,19);cout<<"%";
-	gotoxy(22,20);cout<<"Criterio 4 de 0-100%: ";cin>>de.dc.c4;gotoxy(46,20);cout<<"%";
-	gotoxy(22,21);cout<<"Criterio 5 de 0-100%: ";cin>>de.dc.c5;gotoxy(46,21);cout<<"%";
-	
+	gotoxy(22,16);cout<<endl;
+	gotoxy(22,17);cout<<"----------Criterios de automatizacion----------";
+	gotoxy(22,18);cout<<endl;
+    gotoxy(22,19);cout<<"Creacion de productos            (0-100%) : ";cin>>de.dc.c1;gotoxy(68,19);cout<<"%";
+	gotoxy(22,20);cout<<"Validacion de garantia           (0-100%) : ";cin>>de.dc.c2;gotoxy(68,20);cout<<"%";
+	gotoxy(22,21);cout<<"Equipo especializado             (0-100%) : ";cin>>de.dc.c3;gotoxy(68,21);cout<<"%";
+	gotoxy(22,22);cout<<"Ventas, produccion y exportacion (0-100%) : ";cin>>de.dc.c4;gotoxy(68,22);cout<<"%";
+	gotoxy(22,23);cout<<"Innovacion                       (0-100%) : ";cin>>de.dc.c5;gotoxy(68,23);cout<<"%";
+	gotoxy(22,24);cout<<"-----------------------------------------------";
 	de.dc.ct=F_Criterios(de.dc.c1, de.dc.c2, de.dc.c3, de.dc.c4, de.dc.c5);
 	
-	gotoxy(22,24);cout<<"Porcentaje de Automatización: ";gotoxy(51,24);cout<<" "<<de.dc.ct;cout<<"%";
+	gotoxy(22,25);cout<<"Porcentaje de Automatizacion: ";gotoxy(51,25);cout<<" "<<de.dc.ct;cout<<"%";
 
 	fprintf(doc,"%s %s \n","Nombre de la empresa            : " ,de.noem);
 	fprintf(doc,"%s %s \n","Responsable                     : " ,de.resp);
@@ -473,6 +476,18 @@ void p_ingreso()
 	fprintf(doc,"\n \n");
 	fclose(doc);
 }
+
+void removeFirstN(string &str, int n)
+{
+    str.erase(0, n);
+}
+	
+//Procedimiento de Consultas
+void p_consultas()
+{
+	
+}
+
 //Procedimiento de Nomina
 void p_nomina()
 {
@@ -518,11 +533,7 @@ void p_nomina()
         	}
     }
 }
-
-void removeFirstN(string &str, int n)
-	{
-    	str.erase(0, n);
-	}
+	
 //Procedimiento de Graficos
 void p_graficos()
 {

@@ -468,14 +468,15 @@ void p_ingreso()
 	fprintf(doc,"%s %s \n","Telefono convencional o celular	: " ,de.cel);
 	fprintf(doc,"%s %s \n","Correo electronico empresarial  : " ,de.co);
 	fprintf(doc,"%s %s \n","Link de la pagina               : " ,de.link);
+	fprintf(doc,"\n %s \n", "---Porcentaje de Automatizacion---");
 	fprintf(doc,"%f \n",round(de.dc.ct));
-	fprintf(doc,"\n");
+	fprintf(doc,"\n \n");
 	fclose(doc);
 }
 //Procedimiento de Nomina
 void p_nomina()
 {
-	int n_lineas = 20;//Numero de lineas a imprimir
+	int n_lineas = 26;//Numero de lineas a imprimir
 	
 	vector<string> lineas;//Vector que guarda cada linea de archivo de txt como una cadena de caracteres para acceder a las líneas e imprimirlas en pantalla de manera controlada
 	
@@ -502,7 +503,7 @@ void p_nomina()
 			if(i >= lineas.size()){ //Cuando el contador i sea mayor o igual lineas.size se detiene el ciclo for con la funcion break. lineas.size permite imprimir...
 					break;			//... la informacion almacenada en el vector lineas
 			}
-			gotoxy(22,8 + i - inicio);//Imprimi en la ubicacion deseada con el gotoxy
+			gotoxy(22,9 + i - inicio);//Imprimi en la ubicacion deseada con el gotoxy
 			cout<<lineas[i];
 		}
 		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): ";
@@ -539,7 +540,7 @@ void p_graficos()
     vector<int> data;
     vector<string> emp;
     // Leer las líneas del archivo y almacenarlas en el array
-    int x = 9;
+    int x = 11;
     int z = 1;
     
 	while (getline(file, arr[i])) {
@@ -547,13 +548,13 @@ void p_graficos()
         	int value = stoi(arr[i]);
             data.push_back(value);
 			i++;
-			x=x+10;
+			x=x+13;
         }
         if (line == z) {
         	string str = arr[i];
     		int n = 34;
     		removeFirstN(str,n);
-    		z=z+10;
+    		z=z+13;
     		emp.push_back(str);
 		}
         line++;
@@ -565,7 +566,7 @@ void p_graficos()
 	int max_value = 50;
 	int y = 9; 
 	for (int i = 0; i < data.size(); i++) {
-		gotoxy(22,y);
+		gotoxy(22,y);cout<< i+1 << " : ";
 	    for (int j = 0; j < data[i]* 30 / max_value; j++) {
 	        printf("%c",178);
 	    }

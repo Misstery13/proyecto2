@@ -1,40 +1,140 @@
-Nombre de la empresa            :  Chevrolet 
-Responsable                     :  Diana Mata Mancos con lux 
-Producto estrella               :  pollo horneado 
-Direccion de la empresa	        :  mi casa 
-Ciudad                          :  San Francisco Valley 345 
-Telefono convencional o celular	:  092351562 
-Correo electronico empresarial  :  diana@meee.com 
-Link de la pagina               :  https://www.panshalele.com 
-0.000000 0.000000 
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+49.000000 
 
-Nombre de la empresa            :  qweqweqwe 
-Responsable                     :  aquinga 
-Producto estrella               :  wefdfdfdfdsisis 
-Direccion de la empresa	        :  wiosdfjon3245t34gfv 
-Ciudad                          :  wfoihwpg 
-Telefono convencional o celular	:  23490235 
-Correo electronico empresarial  :  faw@sfwg.com 
-Link de la pagina               :  https://www.comsd.com 
-Porcentaje de Automatización    :  0.000000 
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+58.000000 
 
-Nombre de la empresa            :  qweqwe 
-Responsable                     :  qweqweqwe 
-Producto estrella               :  uwuwuwu 
-Direccion de la empresa	        :  taeko ohnuki 
-Ciudad                          :  japan 
-Telefono convencional o celular	:  2367 
-Correo electronico empresarial  :  ddd@df.com 
-Link de la pagina               :  https://www.weeee.com 
-Porcentaje de Automatización    :  40.599998 
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+49.000000 
 
-Nombre de la empresa            :  qweqwe 
-Responsable                     :  qweqwe 
-Producto estrella               :  qwe 
-Direccion de la empresa	        :  qweqwe 
-Ciudad                          :  qwe 
-Telefono convencional o celular	:  23435255 
-Correo electronico empresarial  :  etwet@swer.com 
-Link de la pagina               :  https://www.ewrwe.com 
-Porcentaje de Automatización    :  55.599998 
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+80.000000 
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+58.000000 
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+70.000000 
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+49.000000 
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+58.000000 
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+49.000000 
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+90.000000 
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+58.000000 
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+49.000000 
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+49.000000 
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+12.000000 
 

@@ -18,8 +18,9 @@ Fecha: ....*/
 #include<unistd.h>
 #include <conio.h>
 #include <regex>
-#include <sstream>
+#include <fstream>
 #include <string>
+#include <cmath>
 #include"crite.h"
 using namespace std;
 
@@ -465,7 +466,7 @@ void p_ingreso()
 	fprintf(doc,"%s %s \n","Telefono convencional o celular	: " ,de.cel);
 	fprintf(doc,"%s %s \n","Correo electronico empresarial  : " ,de.co);
 	fprintf(doc,"%s %s \n","Link de la pagina               : " ,de.link);
-	fprintf(doc,"%s %f \n","Porcentaje de Automatización    : " ,de.dc.ct,"%");
+	fprintf(doc,"%f \n",round(de.dc.ct));
 	fprintf(doc,"\n");
 	fclose(doc);
 }
@@ -518,15 +519,46 @@ void p_nomina()
 //Procedimiento de Graficos
 void p_graficos()
 {
-	float data[] = {de.dc.c1,de.dc.c2,de.dc.c3,de.dc.c4,de.dc.c5};
-    int max_value = 100;
-
-    gotoxy(22,8);for (int i = 0; i < 5; i++)  {
-        cout << i+1 << ": "; 
-        for (int j = 0; j < data[i] * 100 / max_value; j++) {
-            printf("%c",178);
+	string arr[100];  // Array para almacenar las líneas leídas del archivo
+    int i = 0;        // Contador para el número de elementos en el array
+    int line = 1;     // Número de la línea actual que se está leyendo
+    
+    // Abrir el archivo en modo de lectura
+    ifstream file("proyect.txt");
+    
+    // Verificar si el archivo se abrió correctamente
+    if (!file.is_open()) {
+        cout << "No se pudo abrir el archivo" << endl;
+    }
+    vector<int> data;
+    // Leer las líneas del archivo y almacenarlas en el array
+    int x = 9;
+	while (getline(file, arr[i])) {
+        if (line == x ) {
+        	int value = stoi(arr[i]);
+            data.push_back(value);
+			i++;
+			x=x+10;
         }
-        cout <<endl;
+        line++;
+    }
+    
+    // Cerrar el archivo
+    file.close();
+    
+	int max_value = 50;
+	int y = 9; 
+	for (int i = 0; i < data.size(); i++) {
+		gotoxy(22,y);
+    	cout << i+1 << " : ";
+	    for (int j = 0; j < data[i]* 30 / max_value; j++) {
+	        printf("%c",178);
+	    }
+	    cout << " " << data[i] << "%" << endl;
+	    cout <<endl;
+	    y=y+2;
 	}
+
+
 }
 

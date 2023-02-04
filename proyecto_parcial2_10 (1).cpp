@@ -69,6 +69,8 @@ void p_ingreso();
 void p_nomina();
 //Procedimiento para graficos
 void p_graficos();
+//Procedimiento de Extraccion de nombres de empresas
+void removeFirstN(string &str, int n);
 
 //Funci?n Principal
 int main()
@@ -516,6 +518,10 @@ void p_nomina()
     }
 }
 
+void removeFirstN(string &str, int n)
+	{
+    	str.erase(0, n);
+	}
 //Procedimiento de Graficos
 void p_graficos()
 {
@@ -531,8 +537,11 @@ void p_graficos()
         cout << "No se pudo abrir el archivo" << endl;
     }
     vector<int> data;
+    vector<string> emp;
     // Leer las líneas del archivo y almacenarlas en el array
     int x = 9;
+    int z = 1;
+    
 	while (getline(file, arr[i])) {
         if (line == x ) {
         	int value = stoi(arr[i]);
@@ -540,6 +549,13 @@ void p_graficos()
 			i++;
 			x=x+10;
         }
+        if (line == z) {
+        	string str = arr[i];
+    		int n = 34;
+    		removeFirstN(str,n);
+    		z=z+10;
+    		emp.push_back(str);
+		}
         line++;
     }
     
@@ -550,15 +566,15 @@ void p_graficos()
 	int y = 9; 
 	for (int i = 0; i < data.size(); i++) {
 		gotoxy(22,y);
-    	cout << i+1 << " : ";
 	    for (int j = 0; j < data[i]* 30 / max_value; j++) {
 	        printf("%c",178);
 	    }
-	    cout << " " << data[i] << "%" << endl;
+	    cout << " " << data[i] << "%   " << emp[i] << endl;
 	    cout <<endl;
 	    y=y+2;
 	}
-
+	
+	
 
 }
 

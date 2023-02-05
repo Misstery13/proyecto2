@@ -522,15 +522,59 @@ void p_nomina()
 			cout<<lineas[i];
 		}
 		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): ";
-		gotoxy(87,38);cin>>res_usuario;
-		if (res_usuario == "s") {
+		gotoxy(87,38);getline(cin, res_usuario);
+		if (res_usuario == "s" || res_usuario == "S" || res_usuario == "a" || res_usuario == "A" ) {
+	    	gotoxy(22,8);cout<<"                                                                              ";
+			gotoxy(22,9);cout<<"                                                                              ";
+			gotoxy(22,10);cout<<"                                                                              ";
+			gotoxy(22,11);cout<<"                                                                              ";
+			gotoxy(22,12);cout<<"                                                                              ";
+			gotoxy(22,13);cout<<"                                                                              ";
+			gotoxy(22,14);cout<<"                                                                              ";
+			gotoxy(22,15);cout<<"                                                                              ";
+			gotoxy(22,16);cout<<"                                                                              ";
+			gotoxy(22,17);cout<<"                                                                              ";
+			gotoxy(22,18);cout<<"                                                                              ";
+			gotoxy(22,19);cout<<"                                                                              ";
+			gotoxy(22,20);cout<<"                                                                              ";
+			gotoxy(22,21);cout<<"                                                                              ";
+			gotoxy(22,22);cout<<"                                                                              ";
+			gotoxy(22,23);cout<<"                                                                              ";
+			gotoxy(22,24);cout<<"                                                                              ";
+			gotoxy(22,25);cout<<"                                                                              ";
+			gotoxy(22,26);cout<<"                                                                              ";
+			gotoxy(22,27);cout<<"                                                                              ";
+			gotoxy(22,28);cout<<"                                                                              ";
+			gotoxy(22,29);cout<<"                                                                              ";
+			gotoxy(22,30);cout<<"                                                                              ";
+			gotoxy(22,31);cout<<"                                                                              ";
+			gotoxy(22,32);cout<<"                                                                              ";
+			gotoxy(22,33);cout<<"                                                                              ";
+			gotoxy(22,34);cout<<"                                                                              ";
+    	}
+    	
+		if (res_usuario == "s" || res_usuario == "S") {
+			if(inicio + n_lineas >= lineas.size()){
+				continue;
+			}
         	inicio += n_lineas;//El contador aumenta 
-        } else if (res_usuario == "a"){
-        	inicio -= n_lineas;//El contador disminuye
-		}
-        	if (res_usuario == "q") {
-        	  break;
+        } else if (res_usuario == "a" || res_usuario == "A"){
+        	if(inicio <= 0){
+            	continue;
         	}
+        	inicio -= n_lineas;//El contador disminuye
+		} else if (res_usuario == "q" || res_usuario == "Q") {
+        	  break;
+    	}else {
+        	gotoxy(21,39);cout << "Escoge una opcion valida. ";
+			gotoxy(47,39);cout << "*Presiona cualquier tecla para continuar...*"<< endl;
+  			gotoxy(92,39);int key = getch();
+			do {
+				gotoxy(87,38); cout << "             " << endl;
+				gotoxy(21,39);cout <<"                                                                      "<<endl;
+				break;
+			}while (getch());
+		}
     }
 }
 	

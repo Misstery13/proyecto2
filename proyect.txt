@@ -179,6 +179,7 @@ Link de la pagina               :  https://www.er.com
  ---Porcentaje de Automatizacion---
 12.000000 
 
+
 Nombre de la empresa            :  omaiga 
 Responsable                     :  urusei 
 Producto estrella               :  naruto 

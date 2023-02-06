@@ -13,15 +13,16 @@ Fecha: ....*/
 //Definici?n de Librer?as
 #include<iostream>
 #include<stdio.h>  
-#include<windows.h>
+#include<windows.h> //Libreria que permite usar la funcion system
 #include<ctype.h>
 #include<unistd.h>
 #include <conio.h>
-#include <regex>
-#include <fstream>
-#include <string>
-#include <cmath>
-#include"crite.h"
+#include <regex>	//Libreria que funciona con expresiones regulares que permiten aplicar validaciones en el ingreso de datos por el usuario.
+#include <fstream>//Libreria para controlar, extraer, leer, abrir archivos txt.
+#include <algorithm> 
+#include <string> //Libreria para declarar variables tipo cadena o string
+#include <cmath> //Libreria para hacer calculos matematicos
+#include"crite.h" //Libreria local que calcula el promedio porcentual de los 5 criterios
 using namespace std;
 
 //Definici?n de Variables Globales
@@ -182,6 +183,7 @@ void p_dmenu()
 		
 		case 2:
 				gotoxy(41,7);cout<<"CONSULTA DE EMPRESAS";
+				p_consultas();
 		break;
 		
 		case 3:
@@ -459,7 +461,8 @@ void p_ingreso()
 	gotoxy(22,22);cout<<"Ventas, produccion y exportacion (0-100%) : ";cin>>de.dc.c4;gotoxy(68,22);cout<<"%";
 	gotoxy(22,23);cout<<"Innovacion                       (0-100%) : ";cin>>de.dc.c5;gotoxy(68,23);cout<<"%";
 	gotoxy(22,24);cout<<"-----------------------------------------------";
-	de.dc.ct=F_Criterios(de.dc.c1, de.dc.c2, de.dc.c3, de.dc.c4, de.dc.c5);
+	
+	de.dc.ct=F_Criterios(de.dc.c1, de.dc.c2, de.dc.c3, de.dc.c4, de.dc.c5); //Llama a la libreria que esta almacenada en crite.h y esta a su vez calcula el promedio porcentual
 	
 	gotoxy(22,25);cout<<"Porcentaje de Automatizacion: ";gotoxy(51,25);cout<<" "<<de.dc.ct;cout<<"%";
 
@@ -479,12 +482,112 @@ void p_ingreso()
 
 void removeFirstN(string &str, int n)
 {
-    str.erase(0, n);
+    str.erase(0, n); 
+}
+
+void getIndex(vector<string>emp1, string k)
+{
+    auto it = find(emp1.begin(), emp1.end(), k);
+  
+    // If element was found
+    if (it != emp1.end()) 
+    {
+      
+        // calculating the index
+        // of K
+        int index = it - emp1.begin();
+        cout << index << endl;
+    }
+    else {
+        // If the element is not
+        // present in the vector
+        cout << "-1" << endl;
+    }
 }
 	
 //Procedimiento de Consultas
 void p_consultas()
 {
+	string vec[100];
+	int i = 0;
+	int j = 0;
+	int linea = 1;
+	int rr = 1;
+	string ax1;
+	string ax4;
+	string k;
+	string empres;
+	string emperior;
+	vector<string>emp1;
+	vector<string>lines;
+	int exc;
+	int xec;
+	int a = 0;
+	int pit = 13;
+	bool empresaEncontrada = false;
+	
+	// Abrir el archivo en modo de lectura
+    ifstream file("proyect.txt");
+    
+    // Verificar si el archivo se abrió correctamente
+    if (!file.is_open()) {
+        gotoxy(22,9);cout << "No se pudo abrir el archivo" << endl;
+    }
+    
+    while (getline(file, vec[i])) {
+    	if(linea == rr) {
+    		empres = vec[i];
+	    	int n = 35;
+	    	removeFirstN(empres,n);
+	    	transform(empres.begin(),empres.end(), empres.begin(), ::tolower);
+	    	empres.erase(remove_if(empres.begin(), empres.end(), ::isspace), empres.end());
+	    	emp1.push_back(empres);
+	    	rr=rr+13;
+		}
+		linea++;
+	}
+	file.close();
+	
+	gotoxy(22,8);cout<<"----------Consulte la informacion de la empresa a continuacion----------";
+	gotoxy(22,10);cout<<"Ingrese el nombre de la empresa: ";
+	getline(cin, k);
+
+    k.erase(remove_if(k.begin(), k.end(), ::isspace), k.end());
+	transform(k.begin(),k.end(), k.begin(), ::tolower);
+	
+	for(i = 0; i < emp1.size(); i++){
+		ax1 = emp1[i];
+		if (k == ax1){
+			empresaEncontrada = true;
+			ifstream file("proyect.txt");
+		    if (file.is_open()) {
+		        while (getline(file, ax4)) {
+		            lines.push_back(ax4);
+		        }
+		        file.close();
+		    } else {
+		        cout << "No se pudo abrir el archivo" << endl;
+		    }
+				j= 0;
+		    for (const auto &l : lines) {	
+				if (j>= (i*13) && j<((i*13)+13)){
+			        gotoxy(22,pit);cout << l << endl;
+		    		pit++;
+		    	}
+		    	j++;
+		    }
+		    break;		
+		}if(!empresaEncontrada){
+		gotoxy(22,14);cout<<"*La empresa que ingresaste no existe*"<<endl;
+		gotoxy(22,15);cout << "*Presiona cualquier tecla para continuar...*"<<endl;
+  		gotoxy(66,15);int key = getch();
+  		cin.clear();
+	}do{
+		gotoxy(22,14);cout <<"                                                     "<<endl;
+		gotoxy(22,15);cout <<"                                                      "<< endl;
+		gotoxy(55,10);
+		}while (getch());
+	}
 	
 }
 
@@ -522,18 +625,68 @@ void p_nomina()
 			cout<<lineas[i];
 		}
 		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): ";
-		gotoxy(87,38);cin>>res_usuario;
-		if (res_usuario == "s") {
+		//gotoxy(87,38);cin>>res_usuario;
+		//if (res_usuario == "s") {
+		gotoxy(87,38);getline(cin, res_usuario);
+		if (res_usuario == "s" || res_usuario == "S" || res_usuario == "a" || res_usuario == "A" ) {
+	    	gotoxy(22,8);cout<<"                                                                              ";
+			gotoxy(22,9);cout<<"                                                                              ";
+			gotoxy(22,10);cout<<"                                                                              ";
+			gotoxy(22,11);cout<<"                                                                              ";
+			gotoxy(22,12);cout<<"                                                                              ";
+			gotoxy(22,13);cout<<"                                                                              ";
+			gotoxy(22,14);cout<<"                                                                              ";
+			gotoxy(22,15);cout<<"                                                                              ";
+			gotoxy(22,16);cout<<"                                                                              ";
+			gotoxy(22,17);cout<<"                                                                              ";
+			gotoxy(22,18);cout<<"                                                                              ";
+			gotoxy(22,19);cout<<"                                                                              ";
+			gotoxy(22,20);cout<<"                                                                              ";
+			gotoxy(22,21);cout<<"                                                                              ";
+			gotoxy(22,22);cout<<"                                                                              ";
+			gotoxy(22,23);cout<<"                                                                              ";
+			gotoxy(22,24);cout<<"                                                                              ";
+			gotoxy(22,25);cout<<"                                                                              ";
+			gotoxy(22,26);cout<<"                                                                              ";
+			gotoxy(22,27);cout<<"                                                                              ";
+			gotoxy(22,28);cout<<"                                                                              ";
+			gotoxy(22,29);cout<<"                                                                              ";
+			gotoxy(22,30);cout<<"                                                                              ";
+			gotoxy(22,31);cout<<"                                                                              ";
+			gotoxy(22,32);cout<<"                                                                              ";
+			gotoxy(22,33);cout<<"                                                                              ";
+			gotoxy(22,34);cout<<"                                                                              ";
+    	}
+
+		if (res_usuario == "s" || res_usuario == "S") {
+			if(inicio + n_lineas >= lineas.size()){
+				continue;
+			}
         	inicio += n_lineas;//El contador aumenta 
-        } else if (res_usuario == "a"){
-        	inicio -= n_lineas;//El contador disminuye
-		}
-        	if (res_usuario == "q") {
-        	  break;
+        //} else if (res_usuario == "a"){
+        	} else if (res_usuario == "a" || res_usuario == "A"){
+        	if(inicio <= 0){
+            	continue;
         	}
+        	inicio -= n_lineas;//El contador disminuye
+        	//if (res_usuario == "q") {
+        	} else if (res_usuario == "q" || res_usuario == "Q") {
+        	  break;
+        	}else {
+        	gotoxy(21,39);cout << "Escoge una opcion valida. ";
+			gotoxy(47,39);cout << "*Presiona cualquier tecla para continuar...*"<< endl;
+  			gotoxy(92,39);int key = getch();
+			do {
+				gotoxy(87,38); cout << "             " << endl;
+				gotoxy(21,39);cout <<"                                                                      "<<endl;
+				break;
+			}while (getch());
+		}
     }
 }
-	
+
+
+
 //Procedimiento de Graficos
 void p_graficos()
 {
@@ -546,24 +699,26 @@ void p_graficos()
     
     // Verificar si el archivo se abrió correctamente
     if (!file.is_open()) {
-        cout << "No se pudo abrir el archivo" << endl;
+        gotoxy(22,9);cout << "Se necesitan datos para mostrar esta opcion."<< endl;
+        gotoxy(22,10);cout << "No se ha registrado ninguna informacion" << endl;
     }
-    vector<int> data;
-    vector<string> emp;
-    // Leer las líneas del archivo y almacenarlas en el array
-    int x = 11;
-    int z = 1;
     
+    vector<int> data;//Arreglo que almacena los datos porcentuales de cada empresa.
+    vector<string> emp;
+    
+    int x = 11; //Variable que permite imprimir en el eje y en la posicion correcta a traves de una iteracion
+    int z = 1;
+    // Leer las líneas del archivo y almacenarlas en el array
 	while (getline(file, arr[i])) {
         if (line == x ) {
         	int value = stoi(arr[i]);
-            data.push_back(value);
+            data.push_back(value);   
 			i++;
 			x=x+13;
         }
         if (line == z) {
         	string str = arr[i];
-    		int n = 34;
+    		int n = 35;
     		removeFirstN(str,n);
     		z=z+13;
     		emp.push_back(str);
@@ -583,10 +738,7 @@ void p_graficos()
 	    }
 	    cout << " " << data[i] << "%   " << emp[i] << endl;
 	    cout <<endl;
-	    y=y+2;
+	    y=y+2;	
 	}
-	
-	
-
 }
 

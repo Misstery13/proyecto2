@@ -1,182 +1,221 @@
-Nombre de la empresa            :  uwuwuwu 
-Responsable                     :  qweqweqweqwe 
-Producto estrella               :  2sdfsdf 
-Direccion de la empresa	        :  dianana 
-Ciudad                          :  santa elena 
-Telefono convencional o celular	:  32423523 
-Correo electronico empresarial  :  dd@jj.com 
-Link de la pagina               :  https://www.com.com 
+Nombre de la empresa            :  Graiman 
+Responsable                     :  Bryan 
+Producto estrella               :  Ceramica 
+Direccion de la empresa	        :  Libertad 
+Ciudad                          :  Santa elena 
+Telefono convencional o celular	:  0985379655 
+Correo electronico empresarial  :  jars@gmail.com 
+Link de la pagina               :  http://www.graiman.com 
 
  ---Porcentaje de Automatizacion--- 
-41.000000 
+60.000000 
 
  
-Nombre de la empresa            :  Graiman Asociados 
-Responsable                     :  Diana 
-Producto estrella               :  baldosa 
-Direccion de la empresa	        :  saaasdn 
-Ciudad                          :  santa elena 
-Telefono convencional o celular	:  2389 
-Correo electronico empresarial  :  hh@graiman.com 
-Link de la pagina               :  https://www.ueueur.com 
-
- ---Porcentaje de Automatizacion--- 
-58.000000 
-
- 
-Nombre de la empresa            :  pika 
-Responsable                     :  angel 
-Producto estrella               :  plasticos 
-Direccion de la empresa	        :  gye 
-Ciudad                          :  guayas 
-Telefono convencional o celular	:  23589230 
-Correo electronico empresarial  :  ddd@jjj.com 
-Link de la pagina               :  https://www.pika.com 
-
- ---Porcentaje de Automatizacion--- 
-62.000000 
-
- 
-Nombre de la empresa            :  jbl 
-Responsable                     :  werwerwer 
-Producto estrella               :  89324fff 
-Direccion de la empresa	        :  erwht24 
-Ciudad                          :  fowvnr3 
-Telefono convencional o celular	:  2394 
-Correo electronico empresarial  :  hh@jbl.com 
-Link de la pagina               :  https://www.jbl.com 
+Nombre de la empresa            :  Cerveceria 
+Responsable                     :  Jose 
+Producto estrella               :  Club Verde 
+Direccion de la empresa	        :  Libertad 
+Ciudad                          :  Santa elena 
+Telefono convencional o celular	:  7845654 
+Correo electronico empresarial  :  Cer@gmia.com 
+Link de la pagina               :  http://www.cerveza.com 
 
  ---Porcentaje de Automatizacion--- 
 47.000000 
 
  
-Nombre de la empresa            :  cuco 
-Responsable                     :  qwrqrwf 
-Producto estrella               :  qwefwrgw 
-Direccion de la empresa	        :  efdwefwf 
-Ciudad                          :  wewef 
-Telefono convencional o celular	:  2325 
-Correo electronico empresarial  :  dhhf@ue.com 
-Link de la pagina               :  https://www.sdwef.com 
+Nombre de la empresa            :  Nestle 
+Responsable                     :  Diana 
+Producto estrella               :  Galleta 
+Direccion de la empresa	        :  Libertad 
+Ciudad                          :  Santa elena 
+Telefono convencional o celular	:  45781565 
+Correo electronico empresarial  :  nes@gm.com 
+Link de la pagina               :  http://www.Nest.com 
 
  ---Porcentaje de Automatizacion--- 
-100.000000 
+50.000000 
 
- 
-Nombre de la empresa            :  hugo 
-Responsable                     :  erewr 
-Producto estrella               :  sdfwerwfsdf 
-Direccion de la empresa	        :  fdfhkfgjorifjw 
-Ciudad                          :  asfvvvv 
-Telefono convencional o celular	:  2526 
-Correo electronico empresarial  :  uweufdsf@sedf.com 
-Link de la pagina               :  https://www.dfs.com 
 
- ---Porcentaje de Automatizacion--- 
-44.000000 
-
- 
-Nombre de la empresa            :  apple  
-Responsable                     :  steve jobs 
-Producto estrella               :  rhwkdjfhsdf 
-Direccion de la empresa	        :  usa 
-Ciudad                          :  usssaaaa 
-Telefono convencional o celular	:  2390423949023 
-Correo electronico empresarial  :  apple@support.com 
-Link de la pagina               :  https://www.erdf.com 
+Nombre de la empresa            :  HOLCIM ECUADOR
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com
 
  ---Porcentaje de Automatizacion--- 
-68.000000 
+80.000000 
 
- 
-Nombre de la empresa            :  marcopolo 
-Responsable                     :  Marcos el polo 
-Producto estrella               :  polo 
-Direccion de la empresa	        :  polo norte 
-Ciudad                          :  polo sur 
-Telefono convencional o celular	:  92342340 
-Correo electronico empresarial  :  polo@hemisferio.com 
-Link de la pagina               :  https://www.dfsdfd.com 
 
- ---Porcentaje de Automatizacion--- 
-60.000000 
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
 
- 
-Nombre de la empresa            :  uuuuuuuuu 
-Responsable                     :  asdasdasdasd 
-Producto estrella               :  asdasweev2434234 
-Direccion de la empresa	        :  adwfg34  
-Ciudad                          :  wdferfw424535t 
-Telefono convencional o celular	:  290323525 
-Correo electronico empresarial  :  gtt@df.com 
-Link de la pagina               :  https://www.csdfegw.com 
+ ---Porcentaje de Automatizacion---
+58.000000 
 
- ---Porcentaje de Automatizacion--- 
-64.000000 
 
- 
-Nombre de la empresa            :  Natalia 
-Responsable                     :  sfjfoiwioweoif 
-Producto estrella               :  doqwdiowifw 
-Direccion de la empresa	        :  234234 
-Ciudad                          :  sefef345 
-Telefono convencional o celular	:  238982358924 
-Correo electronico empresarial  :  dd@hotmail.com 
-Link de la pagina               :  https://www.uwu.com 
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com
 
  ---Porcentaje de Automatizacion--- 
-53.000000 
+70.000000 
 
- 
-Nombre de la empresa            :  Nutria 
-Responsable                     :  ASDAFASDF 
-Producto estrella               :  sdfsfewf 
-Direccion de la empresa	        :  werwefwef 
-Ciudad                          :  23fegeg 
-Telefono convencional o celular	:  3453467 
-Correo electronico empresarial  :  ii@jj.com 
-Link de la pagina               :  https://www.wdfw.com 
 
- ---Porcentaje de Automatizacion--- 
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+
+ ---Porcentaje de Automatizacion---
 49.000000 
 
- 
-Nombre de la empresa            :  Sandwich 
-Responsable                     :  pollo 
-Producto estrella               :  asdwieofhwvor 
-Direccion de la empresa	        :  4532dfsdf 
-Ciudad                          :  uhhr 
-Telefono convencional o celular	:  237777 
-Correo electronico empresarial  :  hh@hh.com 
-Link de la pagina               :  https://www.ertwf.com 
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+
+ ---Porcentaje de Automatizacion---
+58.000000 
+
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+
+ ---Porcentaje de Automatizacion---
+49.000000 
+
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+
+ ---Porcentaje de Automatizacion---
+90.000000 
+
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+
+ ---Porcentaje de Automatizacion---
+58.000000 
+
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+
+ ---Porcentaje de Automatizacion---
+49.000000 
+
+
+Nombre de la empresa            :  werweddf 
+Responsable                     :  werwedfvvbbhb 
+Producto estrella               :  dfg4356 
+Direccion de la empresa	        :  sdfgfvsdf 
+Ciudad                          :  gbbvbcsdf 
+Telefono convencional o celular	:  9823567 
+Correo electronico empresarial  :  diaaa@uu.com 
+Link de la pagina               :  https://www.cwef.com 
+
+ ---Porcentaje de Automatizacion---
+49.000000 
+
+
+Nombre de la empresa            :  rwerwerwe 
+Responsable                     :  werwerwer 
+Producto estrella               :  werwerfwer 
+Direccion de la empresa	        :  werwrw 
+Ciudad                          :  wwerwewwww 
+Telefono convencional o celular	:  2345345345 
+Correo electronico empresarial  :  ff@fds.com 
+Link de la pagina               :  https://www.er.com 
+
+ ---Porcentaje de Automatizacion---
+12.000000 
+
+
+Nombre de la empresa            :  omaiga 
+Responsable                     :  urusei 
+Producto estrella               :  naruto 
+Direccion de la empresa	        :  japan tokio 
+Ciudad                          :  yapingacho 
+Telefono convencional o celular	:  8235926 
+Correo electronico empresarial  :  ttt@naruto.com 
+Link de la pagina               :  https://www.ewrwe.com 
 
  ---Porcentaje de Automatizacion--- 
-64.000000 
+59.000000 
 
  
-Nombre de la empresa            :  YUYU 
-Responsable                     :  UYU 
-Producto estrella               :  asdasdasd 
-Direccion de la empresa	        :  arqwefw 
-Ciudad                          :  3wwerg34 
-Telefono convencional o celular	:  23423423 
-Correo electronico empresarial  :  dd@hotmail.com 
-Link de la pagina               :  https://www.jdfwe.com 
+Nombre de la empresa            :  eqwdqwdqw 
+Responsable                     :  qwdqwdqwd 
+Producto estrella               :  qwwdqwdqwd 
+Direccion de la empresa	        :  qdqwdqwd 
+Ciudad                          :  santa elena 
+Telefono convencional o celular	:  23252 
+Correo electronico empresarial  :  diana@rfsg.com 
+Link de la pagina               :  https://www.dfsdf.com 
 
  ---Porcentaje de Automatizacion--- 
-60.000000 
+47.000000 
 
  
-Nombre de la empresa            :  Kiss
-Responsable                     :  asdasdasd 
-Producto estrella               :  23rwdsf 
-Direccion de la empresa	        :  sv25fd 
-Ciudad                          :  Santa Elena 
-Telefono convencional o celular	:  252677777 
-Correo electronico empresarial  :  few@fwfc.com 
-Link de la pagina               :  https://www.dfewfw.com 
+Nombre de la empresa            :  Holcim Ecuador 
+Responsable                     :  adasdadfve 
+Producto estrella               :  rweklfjdlfndfv 
+Direccion de la empresa	        :  dddd 
+Ciudad                          :  rweewdfasashgwe 
+Telefono convencional o celular	:  23523626 
+Correo electronico empresarial  :  diana@ifw.com 
+Link de la pagina               :  https://www.cafhsfgowfo.com 
 
  ---Porcentaje de Automatizacion--- 
-54.000000 
+58.000000 
 
  

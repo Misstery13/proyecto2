@@ -576,19 +576,15 @@ void p_consultas()
 		    	}
 		    	j++;
 		    }
-		    break;		
-		}if(!empresaEncontrada){
+			break;
+		}    		
+	}
+	if(!empresaEncontrada){
 		gotoxy(22,14);cout<<"*La empresa que ingresaste no existe*"<<endl;
 		gotoxy(22,15);cout << "*Presiona cualquier tecla para continuar...*"<<endl;
   		gotoxy(66,15);int key = getch();
   		cin.clear();
-	}do{
-		gotoxy(22,14);cout <<"                                                     "<<endl;
-		gotoxy(22,15);cout <<"                                                      "<< endl;
-		gotoxy(55,10);
-		}while (getch());
 	}
-	
 }
 
 //Procedimiento de Nomina

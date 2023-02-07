@@ -292,7 +292,7 @@ void p_ingreso()
    		continue;
 		}
 		for (int i=0; i < strlen(de.resp); i++){
-			if (!isalpha(de.resp[i]) && de.resp[i] != ' ') {
+			if (!isalpha(de.resp[i]) && de.resp[i] != ' ' && de.resp[i] != '-') {
 				valid = false;
 				break;
 			}
@@ -434,7 +434,7 @@ void p_ingreso()
 	//VALIDACION DE CORREO ELECTRONICO
 	/////////////////////////////////////////////
 	
-	regex email_expr("(\\w+)(\\.|_)?(\\w*)@(\\w+)(\\.(\\w{2,4}))+");
+	regex email_expr("(\\w+)([\\.|_|-]?)(\\w*)@(\\w+)(\\.(\\w{2,6}))+");
 	while(true){
 		gotoxy(22,14);cout<<"Correo electronico empresarial: ";gets(de.co);
 		if(valid == (regex_match(de.co,email_expr))){

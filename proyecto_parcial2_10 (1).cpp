@@ -89,7 +89,24 @@ int main()
 		//llamado al procedimiento datos del menu de opciones
 		p_dmenu();
 		gotoxy(21,37);cout<<"Desea volver al menu principal (S/N): ";
-		gotoxy(60,37);cin>>rp;
+		
+		bool valid= false;
+		while (!valid){
+			gotoxy(60,37);
+			if (cin>>rp && rp =='s' || rp =='n' || rp =='S' || rp =='N') {
+				valid = true;
+			} else {
+			gotoxy(21,39);cout << "Ingrese una opcion valida. *Presione Enter para continuar*" << endl;
+			gotoxy(79,39);int key = getch(); //Espera una tecla cualquiera
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		}do {
+			gotoxy(60,37);cout <<"                            "<<endl;
+			gotoxy(21,39);cout << "                                                          " << endl;
+			break;
+		}while(getch());
+		}
+		getchar();
 		
 	}while(rp=='S'||rp=='s');
 	//Pausa

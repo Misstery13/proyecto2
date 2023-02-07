@@ -72,7 +72,7 @@ void p_consultas();
 void p_nomina();
 //Procedimiento para graficos
 void p_graficos();
-//Procedimiento de Extraccion de nombres de empresas
+//Procedimiento de Extraccion de lineas en especifico
 void removeFirstN(string &str, int n);
 
 //Funci?n Principal
@@ -517,11 +517,8 @@ void p_consultas()
 	string ax4;
 	string k;
 	string empres;
-	string emperior;
 	vector<string>emp1;
 	vector<string>lines;
-	int exc;
-	int xec;
 	int a = 0;
 	int pit = 13;
 	bool empresaEncontrada = false;
@@ -541,7 +538,7 @@ void p_consultas()
 	    	removeFirstN(empres,n);
 	    	transform(empres.begin(),empres.end(), empres.begin(), ::tolower);
 	    	empres.erase(remove_if(empres.begin(), empres.end(), ::isspace), empres.end());
-	    	emp1.push_back(empres);
+	    	emp1.push_back(empres); 
 	    	rr=rr+13;
 		}
 		linea++;
@@ -584,6 +581,12 @@ void p_consultas()
 		gotoxy(22,15);cout << "*Presiona cualquier tecla para continuar...*"<<endl;
   		gotoxy(66,15);int key = getch();
   		cin.clear();
+  		gotoxy(55,10);cout<<"                                     "<<endl;
+        gotoxy(22,14);cout<<"                                                   "<<endl;
+        gotoxy(22,15);cout<<"                                                       "<<endl;
+        p_consultas();//Repite el procedimiento de consulta si no se encuentra el nombre
+        gotoxy(21,37); system("pause");//pausa...xd
+        main();//funcion principal o pagina principal del codigo
 	}
 }
 

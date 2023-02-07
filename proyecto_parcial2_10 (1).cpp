@@ -1,15 +1,24 @@
 /*Proyecto del II Parcial
 Tema: Porcentaje de automatizaci?n de las empresas
 Integrantes:
-1... Angel
-2... Diana Melena
-3...  Richard 
-LA BASE DE DATOS DE VIRUS HA SIDO ACTUALIZADA
-4... Bryan 
-ya pude xd 
+1... Baque De La Cruz Joffre Darío
+2... Burgos Mero Erick Ariel
+3... Gutiérrez Suarez Mario Miguel
+4... Laínez Dominguez Diego Isaías
+5... Melena Santander Diana Lucia
+6... Nuñez Zamora Miguel Alejandro
+7... Pacha Rivera Kleber Slader
+8... Rocafuerte Tomala Jair Ariel
+9... Rodríguez Catuto Ángel José
+10... Salcedo Tomala Sammy Jordy
+11... Suarez Ricardo Bryan Estuar
+12... Suárez Yagual Vanessa Angelica
+13... Tomalá Bernabé Richard Enrique
+14... Villaprado Laje Max Anderson 
+
 Curso: Auto1/1
-Fecha: ....*/
-//nose que escribir
+Fecha: 8/02/2023*/
+
 //Definici?n de Librer?as
 #include<iostream>
 #include<stdio.h>  
@@ -26,7 +35,7 @@ Fecha: ....*/
 using namespace std;
 
 //Definici?n de Variables Globales
-int limf=40, limc=100, i, j, op, c, n, cc;
+int limf=40, limc=100, i, j, op, c;
 char rp;
 FILE *doc;
 //Definici?n de Estructuras de Datos
@@ -502,22 +511,18 @@ void removeFirstN(string &str, int n)
     str.erase(0, n); 
 }
 
+//Este procedimiento permite encontrar un indice dentro de un vector
 void getIndex(vector<string>emp1, string k)
 {
     auto it = find(emp1.begin(), emp1.end(), k);
   
-    // If element was found
     if (it != emp1.end()) 
     {
       
-        // calculating the index
-        // of K
         int index = it - emp1.begin();
         cout << index << endl;
     }
     else {
-        // If the element is not
-        // present in the vector
         cout << "-1" << endl;
     }
 }
@@ -545,10 +550,17 @@ void p_consultas()
     
     // Verificar si el archivo se abrió correctamente
     if (!file.is_open()) {
-        gotoxy(22,9);cout << "No se pudo abrir el archivo" << endl;
-    }
-    
-    while (getline(file, vec[i])) {
+        gotoxy(22,13);cout << "Se necesitan datos para mostrar esta opcion."<< endl;
+        gotoxy(22,14);cout << "No se ha registrado ninguna informacion" << endl;
+        gotoxy(63,14);int key = getch();
+        do{
+        	gotoxy(22,13);cout << "                                              "<< endl;
+        	gotoxy(22,14);cout << "                                           " << endl;
+        	break;
+		}while(getch());
+        
+    }else {
+    	while (getline(file, vec[i])) {
     	if(linea == rr) {
     		empres = vec[i];
 	    	int n = 35;
@@ -580,7 +592,8 @@ void p_consultas()
 		        }
 		        file.close();
 		    } else {
-		        cout << "No se pudo abrir el archivo" << endl;
+		        gotoxy(22,9);cout << "Se necesitan datos para mostrar esta opcion."<< endl;
+        		gotoxy(22,10);cout << "No se ha registrado ninguna informacion" << endl;
 		    }
 				j= 0;
 		    for (const auto &l : lines) {	
@@ -593,18 +606,21 @@ void p_consultas()
 			break;
 		}    		
 	}
-	if(!empresaEncontrada){
-		gotoxy(22,14);cout<<"*La empresa que ingresaste no existe*"<<endl;
-		gotoxy(22,15);cout << "*Presiona cualquier tecla para continuar...*"<<endl;
-  		gotoxy(66,15);int key = getch();
-  		cin.clear();
-  		gotoxy(55,10);cout<<"                                     "<<endl;
-        gotoxy(22,14);cout<<"                                                   "<<endl;
-        gotoxy(22,15);cout<<"                                                       "<<endl;
-        p_consultas();//Repite el procedimiento de consulta si no se encuentra el nombre
-        gotoxy(21,37); system("pause");//pausa...xd
-        main();//funcion principal o pagina principal del codigo
+		if(!empresaEncontrada){
+			gotoxy(22,14);cout<<"*La empresa que ingresaste no existe*"<<endl;
+			gotoxy(22,15);cout << "*Presiona cualquier tecla para continuar...*"<<endl;
+	  		gotoxy(66,15);int key = getch();
+	  		cin.clear();
+	  		gotoxy(55,10);cout<<"                                     "<<endl;
+	        gotoxy(22,14);cout<<"                                                   "<<endl;
+	        gotoxy(22,15);cout<<"                                                       "<<endl;
+	        p_consultas();//Repite el procedimiento de consulta si no se encuentra el nombre
+	        gotoxy(21,37); system("pause");//pausa...xd
+	        main();//funcion principal o pagina principal del codigo
+		}
 	}
+    
+    
 }
 
 //Procedimiento de Nomina
@@ -641,8 +657,6 @@ void p_nomina()
 			cout<<lineas[i];
 		}
 		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): ";
-		//gotoxy(87,38);cin>>res_usuario;
-		//if (res_usuario == "s") {
 		gotoxy(87,38);getline(cin, res_usuario);
 		if (res_usuario == "s" || res_usuario == "S" || res_usuario == "a" || res_usuario == "A" ) {
 	    	gotoxy(22,8);cout<<"                                                                              ";
@@ -679,13 +693,11 @@ void p_nomina()
 				continue;
 			}
         	inicio += n_lineas;//El contador aumenta 
-        //} else if (res_usuario == "a"){
         	} else if (res_usuario == "a" || res_usuario == "A"){
         	if(inicio <= 0){
             	continue;
         	}
         	inicio -= n_lineas;//El contador disminuye
-        	//if (res_usuario == "q") {
         	} else if (res_usuario == "q" || res_usuario == "Q") {
         	  break;
         	}else {

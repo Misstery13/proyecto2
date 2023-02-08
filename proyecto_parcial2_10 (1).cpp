@@ -41,11 +41,11 @@ FILE *doc;
 //Definici?n de Estructuras de Datos
 struct criterios
 {
-	float c1; //criterio 1
-	float c2; //criterio 2
-	float c3; //criterio 3
-	float c4; //criterio 4
-	float c5; //criterio 5
+	float c1; //criterio 1: Creacion de productos
+	float c2; //criterio 2: Validacion de garantia 
+	float c3; //criterio 3: Equipo especializado
+	float c4; //criterio 4: Ventas, produccion y exportacion
+	float c5; //criterio 5: Innovacion
 	float ct; //Total de criterios
 };
 struct empresa
@@ -89,8 +89,8 @@ int main()
 {
 	do
 	{
-		system("cls");
-		system("color B");
+		system("cls"); //Borrado de pantalla 
+		system("color B");//Color del borde 
 		//llamado al procedimiento borde
 		p_borde();
 		//llamado al procedimiento datos generales
@@ -98,13 +98,13 @@ int main()
 		//llamado al procedimiento datos del menu de opciones
 		p_dmenu();
 		gotoxy(21,37);cout<<"Desea volver al menu principal (S/N): ";
-		
-		bool valid= false;
-		while (!valid){
+		//Validacion para que las respuestas ingresadas por el usuario sean solo "S" o "N", mayúsculas o minúsculas
+		bool valid= false; //Variable valid iniciada en falso
+		while (!valid){ //Bucle que se repetira hasta que la variable valid sea verdadero. 
 			gotoxy(60,37);
-			if (cin>>rp && rp =='s' || rp =='n' || rp =='S' || rp =='N') {
-				valid = true;
-			} else {
+			if (cin>>rp && rp =='s' || rp =='n' || rp =='S' || rp =='N') {	//Si la respuesta es la correcta...
+				valid = true;												//...valid sera verdadero y se romperá el bucle y se seguirá con el programa
+			} else {		//Caso contrario nos mostrará un mensaje que evitará la continuación del programa hasta que se ingrese un caracter valido ('S' o 'N')
 			gotoxy(21,39);cout << "Ingrese una opcion valida. *Presione Enter para continuar*" << endl;
 			gotoxy(79,39);int key = getch(); //Espera una tecla cualquiera
 			cin.clear();
@@ -127,7 +127,7 @@ int main()
 
 //Declaraci?n de prototipos de funciones y procedimientos
 //Procedimiento gotoxy
-void gotoxy(int x, int y)
+void gotoxy(int x, int y)	//Funcion gotoxy permite ubicar datos en pantalla segun coordenadas especificadas por los argumentos 'x' y 'y'
  { 
     HANDLE hcon;  
     hcon = GetStdHandle(STD_OUTPUT_HANDLE);  
@@ -180,13 +180,13 @@ void p_dmenu()
 	gotoxy(3,11);cout<<"4. Grafico.";
 	gotoxy(3,12);cout<<"5. Salir.";
 	gotoxy(21,38);cout<<"Digite la opcion a utilizar: ";
-	
+	//Validacion para evitar que se ingrese una opcion fuera del rango de 1 a 5
 	bool valid = false;
-	while (!valid) {
-		gotoxy(50,38);         //y
-		if (cin >> op && op >= 1 && op <= 5) {
-			valid = true;
-		} else {
+	while (!valid) {	//bucle que se mantendra hasta que la variable valid sea verdadero
+		gotoxy(50,38);      
+		if (cin >> op && op >= 1 && op <= 5) { //si se ingresa una opcion correcta...
+			valid = true;						//...valid sera verdadero y se rompera el bucle
+		} else {	//Si no es correcta la opcion, se mostrara la validacion 
 			gotoxy(21,39);cout << "Ingrese una opcion valida. *Presione Enter para continuar*" << endl;
 			gotoxy(79,39);int key = getch(); //Espera una tecla cualquiera
 			cin.clear();
@@ -232,7 +232,7 @@ void p_dmenu()
 //procedimiento de ingreso de datos 
 void p_ingreso()
 {
-	doc = fopen("proyect.txt","a");
+	doc = fopen("proyect.txt","a"); //Guardar el documento de documento de texto
 	
 	
 	//////////////////////////////////////////////
@@ -240,27 +240,29 @@ void p_ingreso()
 	/////////////////////////////////////////////
 	while(true) {
 		gotoxy(22,8);cout<<"Nombre de la Empresa: ";gets(de.noem);
-		bool valid = true;
-		//Impedir que avance si no se ha contestado nada
-		if (strlen(de.noem) == 0) {
-        gotoxy(22,9);cout << "*Este espacio no puede quedar vacio.*" << endl;
-        gotoxy(22,10);cout << "Presiona cualquier tecla para continuar..."<< endl;
-        gotoxy(64,10);int key = getch();
-        do {
+		bool valid = true; //Variable que nos permitirá romper el bucle
+		
+		//Evitar que el programa avance si no se ha ingresado nada
+		if (strlen(de.noem) == 0) { //Se comprueba con la funcion strlen si la cadena de caracteres "noem" esta vacia. strlen cuenta los caracteres ingresados, si esta es 0, significa que esta vacio
+        gotoxy(22,9);cout << "*Este espacio no puede quedar vacio.*" << endl; 	//Mensaje de validacion 
+        gotoxy(22,10);cout << "Presiona cualquier tecla para continuar..."<< endl; 
+        gotoxy(64,10);int key = getch(); //Se espera a que se presione una tecla . La funcion getch captura el caracter ingresado desde el teclado
+        do {		//Lo siguiente borra los mensajes anteriores de la validacion
             gotoxy(22,9);cout << "                                                                      " << endl;
             gotoxy(22,10);cout << "                                          "<< endl;
             break;
         }while (getch());
-        continue;
+        continue; //La instrucción continue; se salta el resto del codigo dentro del bucle y se repetirá esta validación
    		}
-		for (int i=0; i < strlen(de.noem); i++){
-			if (!isalpha(de.noem[i]) && de.noem[i] != ' ') {
-				valid = false;
-				break;
+   		
+		for (int i=0; i < strlen(de.noem); i++){	//Se realiza el conteo de caracteres con la funcion strlen
+			if (!isalpha(de.noem[i]) && de.noem[i] != ' ') {	//Con la sentencia if se comprueba si la variable "noem" es diferente de una letra alfabetica a traves de !isalpha...
+				valid = false;								//... y que sea distinto de un espacio ' '. Cuando es asi, la variable valid pasa a ser falso...
+				break;										//y con break se rompe el ciclo for
 			}
-		} 	if (valid){
+		} 	if (valid){	//Cuando la variable valid sea falsa, con la funcion break se rompera el bucle. Significa que solo se ingreso letras en esta opcion
 			break;
-		}	else {
+		}	else {	//Validacion si la variable valid no paso a ser falso. Significara que se ingreso caracteres distintos a letras
 				gotoxy(22,9);cout << "Por favor, ingresa solo letras." << endl;
 				gotoxy(22,10);cout << "Presiona cualquier tecla para continuar..."<< endl;
   				gotoxy(64,10);int key = getch();
@@ -280,6 +282,7 @@ void p_ingreso()
 	while(true) {
 	gotoxy(22,9);cout<<"Responsable: ";gets(de.resp);
 	bool valid = true;
+	//Evitar que el programa avance si no se ha ingresado nada
 	if (strlen(de.resp) == 0) {
         gotoxy(22,10);cout << "*Este espacio no puede quedar vacio.*" << endl;
         gotoxy(22,11);cout << "Presiona cualquier tecla para continuar..."<< endl;
@@ -318,8 +321,8 @@ void p_ingreso()
 	bool valid = true;
 	while(true){
 		gotoxy(22,10);cout<<"Producto estrella: ";gets(de.pres);
-		if(valid == (regex_match(de.pres,pro_estr))){
-			break;
+		if(valid == (regex_match(de.pres,pro_estr))){ //Verifica si los caracteres ingresados en la varaible "pres" son segun lo especificado en pro_estr...
+			break;									//... si esto es correcto el bucle se rompe con la funcion break	
 		}
         else
         {
@@ -341,6 +344,7 @@ void p_ingreso()
 	regex direc_emp("^.{1,}$");
 	while(true){
 	gotoxy(22,11);cout<<"Direccion de la empresa: ";gets(de.diem);
+	//Evitar que el programa avance si no se ha ingresado nada
 	if(valid == (regex_match(de.diem,direc_emp))){
 			break;
 		}
@@ -364,6 +368,7 @@ void p_ingreso()
 	regex ciu("^.{1,}$");
 	while(true){
 	gotoxy(22,12);cout<<"Ciudad: ";gets(de.ciu);
+	//Evitar que el programa avance si no se ha ingresado nada
 	if(valid == (regex_match(de.ciu,ciu))){
 			break;
 		}
@@ -387,7 +392,7 @@ void p_ingreso()
 	while(true){
 		gotoxy(22,13);cout<<"Telefono convencional o celular: ";gets(de.cel);
 		bool valid = true;	
-		//Impedir que avance si no se ha contestado nada
+		//Evitar que el programa avance si no se ha ingresado nada
 		if (strlen(de.cel) == 0) {
         gotoxy(22,14);cout << "Estas seguro que quieres dejar este espacio vacio(S/N): " << endl;
         gotoxy(77,14);cin>>rp;
@@ -397,7 +402,6 @@ void p_ingreso()
             break;
         }
         else {
-
 			do {
 				gotoxy(55,13);cout <<"                              "<<endl;
 				gotoxy(22,14);cout << "                                                                      " << endl;
@@ -437,8 +441,8 @@ void p_ingreso()
 	regex email_expr("(\\w+)([\\.|_|-]?)(\\w*)@(\\w+)(\\.(\\w{2,6}))+");
 	while(true){
 		gotoxy(22,14);cout<<"Correo electronico empresarial: ";gets(de.co);
-		if(valid == (regex_match(de.co,email_expr))){
-			break;
+		if(valid == (regex_match(de.co,email_expr))){ //Verifica si los caracteres ingresados en la varaible "co" son segun lo especificado en email_expr...
+			break;									//... si esto es correcto el bucle se rompe con la funcion break
 		}
         else
         {
@@ -506,6 +510,7 @@ void p_ingreso()
 	fclose(doc);
 }
 
+//Funcion para remover n caracteres
 void removeFirstN(string &str, int n)
 {
     str.erase(0, n); 
@@ -560,15 +565,15 @@ void p_consultas()
 		}while(getch());
         
     }else {
-    	while (getline(file, vec[i])) {
-    	if(linea == rr) {
-    		empres = vec[i];
-	    	int n = 35;
-	    	removeFirstN(empres,n);
-	    	transform(empres.begin(),empres.end(), empres.begin(), ::tolower);
-	    	empres.erase(remove_if(empres.begin(), empres.end(), ::isspace), empres.end());
-	    	emp1.push_back(empres); 
-	    	rr=rr+13;
+    	while (getline(file, vec[i])) { //Extrae una linea del archivo de texto y lo guarda dentro del vector vec
+    	if(linea == rr) { 
+    		empres = vec[i];	//Se le asigna a la variable empres los caracteres de vec
+	    	int n = 35; 		//Numero de lineas a remover 
+	    	removeFirstN(empres,n); //Se remueve 35 caracteres del contenido de la variable empres
+	    	transform(empres.begin(),empres.end(), empres.begin(), ::tolower); //Transforma a minuscula los nombres de las empresas permitiendo la consulta tanto en minuscula como en mayuscula 
+	    	empres.erase(remove_if(empres.begin(), empres.end(), ::isspace), empres.end()); //Elimina el espacio luego del nombre de la empresa 
+	    	emp1.push_back(empres); //Envia el contenido de empres a emp1
+	    	rr=rr+13; //Contador que encuentra la linea en la que se encuentra el nombre de la empresa
 		}
 		linea++;
 	}
@@ -578,9 +583,9 @@ void p_consultas()
 	gotoxy(22,10);cout<<"Ingrese el nombre de la empresa: ";
 	getline(cin, k);
 
-    k.erase(remove_if(k.begin(), k.end(), ::isspace), k.end());
-	transform(k.begin(),k.end(), k.begin(), ::tolower);
-	
+    k.erase(remove_if(k.begin(), k.end(), ::isspace), k.end()); //Ignorar el espacio luego del nombre
+	transform(k.begin(),k.end(), k.begin(), ::tolower);	//Transforma a minuscula los nombres de las empresas
+	//Proceso de impresion de los datos en pantalla
 	for(i = 0; i < emp1.size(); i++){
 		ax1 = emp1[i];
 		if (k == ax1){
@@ -605,7 +610,7 @@ void p_consultas()
 		    }
 			break;
 		}    		
-	}
+	}	//Validacion si la empresa no es encontrada 
 		if(!empresaEncontrada){
 			gotoxy(22,14);cout<<"*La empresa que ingresaste no existe*"<<endl;
 			gotoxy(22,15);cout << "*Presiona cualquier tecla para continuar...*"<<endl;
@@ -631,14 +636,29 @@ void p_nomina()
 	vector<string> lineas;//Vector que guarda cada linea de archivo de txt como una cadena de caracteres para acceder a las líneas e imprimirlas en pantalla de manera controlada
 	
 	string linea;//Almacena temporalmente las lineas del archivo txt
-	string res_usuario;//Variable para guardar la respuesta del usuario (siguiente, atras, salir)
+	
+	string res_usuario;//Variable para guardar la respuesta del usuario (siguiente, retroceder pagina, salir)
 	
 	//Abrir el archivo txt y almacenar su informacion en el vector 
-	gotoxy(22,8);
-	doc = fopen("proyect.txt","rt");
-	while((c=getc(doc)) != EOF)
+
+	doc = fopen("proyect.txt","rt"); //Se abre el archivo
+	//Se verifica si existe el archivo 
+	if (doc == NULL) { 	// Con la funcion NULL se comprueba si doc esta apuntando a una direccion nula, por lo que no podra abrir el archivo de texto
+    	gotoxy(22,13);cout << "Se necesitan datos para mostrar esta opcion."<< endl;// Mensaje para decirle al usuario que no se pudo abrir el archivo o no existe
+        gotoxy(22,14);cout << "No se ha registrado ninguna informacion" << endl;
+        gotoxy(63,14);int key = getch();
+        do{
+        	gotoxy(22,13);cout << "                                              "<< endl;
+        	gotoxy(22,14);cout << "                                           " << endl;
+        	break;
+		}while(getch());
+    	return; //Se cierra la funcion p_nomina
+	}
+	//Proceso de lectura y envio de la información al vector
+	while((c=getc(doc)) != EOF) //lectura de los caracteres del archivo de texto para asignarles a la variable c hasta que se alcance el final del archivo
 	{
-		linea += c;//Seguir usando la variable linea para el almacenamiento de datos luego de ser vaciada el if()
+		linea += c;//Asignarle los caracteres que contiene la variable c a la variable linea
+		//Cada vez que se detecta un salto de linea durante la asigncion de los caracteres que contiene c a la variable linea, se hace uso de la setencia if 
 		if(c == '\n')
 		{
 			lineas.push_back(linea);//Agrega al vector lineas, la informacion que contiene la variable linea
@@ -656,8 +676,9 @@ void p_nomina()
 			gotoxy(22,9 + i - inicio);//Imprimi en la ubicacion deseada con el gotoxy
 			cout<<lineas[i];
 		}
-		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): ";
+		gotoxy(21,38);cout << "Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): "; //Pregunta si desea avanzar o retroceder entre paginas, o cerrar la nomina
 		gotoxy(87,38);getline(cin, res_usuario);
+		//Limpiar la pantalla cuando se hace la transicion entre paginas
 		if (res_usuario == "s" || res_usuario == "S" || res_usuario == "a" || res_usuario == "A" ) {
 	    	gotoxy(22,8);cout<<"                                                                              ";
 			gotoxy(22,9);cout<<"                                                                              ";
@@ -689,18 +710,18 @@ void p_nomina()
     	}
 
 		if (res_usuario == "s" || res_usuario == "S") {
-			if(inicio + n_lineas >= lineas.size()){
+			if(inicio + n_lineas >= lineas.size()){	//evitar que el contador aumente cuando ya no hay datos que mostrar 
 				continue;
 			}
         	inicio += n_lineas;//El contador aumenta 
-        	} else if (res_usuario == "a" || res_usuario == "A"){
-        	if(inicio <= 0){
+        } else if (res_usuario == "a" || res_usuario == "A"){
+        	if(inicio <= 0){	//evitar que el contador disminuya cuando ya no hay datos mostrar  
             	continue;
         	}
         	inicio -= n_lineas;//El contador disminuye
-        	} else if (res_usuario == "q" || res_usuario == "Q") {
+        } else if (res_usuario == "q" || res_usuario == "Q") {	//Cierra la nomina
         	  break;
-        	}else {
+        }else {		//Validacion cuando se ingresa una opcion no valida
         	gotoxy(21,39);cout << "Escoge una opcion valida. ";
 			gotoxy(47,39);cout << "*Presiona cualquier tecla para continuar...*"<< endl;
   			gotoxy(92,39);int key = getch();
@@ -739,7 +760,7 @@ void p_graficos()
     // Leer las líneas del archivo y almacenarlas en el array
 	while (getline(file, arr[i])) {
         if (line == x ) {
-        	int value = stoi(arr[i]);
+        	int value = stoi(arr[i]); //La variable value de tipo entero recibe la conversion de los datos del array "arr" (de string a un valor de tipo int)
             data.push_back(value);   
 			i++;
 			x=x+13;
@@ -747,7 +768,7 @@ void p_graficos()
         if (line == z) {
         	string str = arr[i];
     		int n = 35;
-    		removeFirstN(str,n);
+    		removeFirstN(str,n); //Remueve 35 caracteres 
     		z=z+13;
     		emp.push_back(str);
 		}

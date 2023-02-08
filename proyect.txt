@@ -1,182 +1,157 @@
-Nombre de la empresa            :  uwuwuwu 
-Responsable                     :  qweqweqweqwe 
-Producto estrella               :  2sdfsdf 
-Direccion de la empresa	        :  dianana 
-Ciudad                          :  santa elena 
-Telefono convencional o celular	:  32423523 
-Correo electronico empresarial  :  dd@jj.com 
-Link de la pagina               :  https://www.com.com 
+Nombre de la empresa            :  Razer 
+Responsable                     :  Min-Liang Tan 
+Producto estrella               :  Razer Blade (latop para juegos) 
+Direccion de la empresa	        :  3339 S. Broadway, Suite 100 
+Ciudad                          :  Los Angeles, CA 
+Telefono convencional o celular	:  888-697-2037 
+Correo electronico empresarial  :  support@razer.com 
+Link de la pagina               :  https://www.razer.com 
 
  ---Porcentaje de Automatizacion--- 
-41.000000 
+79.000000 
+
+ 
+Nombre de la empresa            :  Pronaca 
+Responsable                     :  Lodewijk Jan Bakker 
+Producto estrella               :  Mr. Pollo 
+Direccion de la empresa	        :  Los Naranjos N44-15 y Av Granados 
+Ciudad                          :  Quito 
+Telefono convencional o celular	:  1800 77 66 22 
+Correo electronico empresarial  :  mrpollo@pronaca.com 
+Link de la pagina               :  https://www.pronaca.com 
+
+ ---Porcentaje de Automatizacion--- 
+51.000000 
+
+ 
+Nombre de la empresa            :  Tesla 
+Responsable                     :  Elon Musk 
+Producto estrella               :  Tesla Solar Glass 
+Direccion de la empresa	        :  Palo Alto, Estados Unidos 
+Ciudad                          :  California 
+Telefono convencional o celular	:  8777983752 
+Correo electronico empresarial  :  press@tesla.com 
+Link de la pagina               :  https://www.tesla.com/ 
+
+ ---Porcentaje de Automatizacion--- 
+86.000000 
 
  
 Nombre de la empresa            :  Graiman 
-Responsable                     :  Diana 
-Producto estrella               :  baldosa 
-Direccion de la empresa	        :  saaasdn 
-Ciudad                          :  santa elena 
-Telefono convencional o celular	:  2389 
-Correo electronico empresarial  :  hh@graiman.com 
-Link de la pagina               :  https://www.ueueur.com 
+Responsable                     :  Juan Pablo Malo Ro 
+Producto estrella               :  Porcelanato en general 
+Direccion de la empresa	        :  Parque Industrial Manchangara 
+Ciudad                          :  Cuenca 
+Telefono convencional o celular	:  0724007001 
+Correo electronico empresarial  :  comunicacion@graiman.com 
+Link de la pagina               :  https://www.graiman.com/ 
+
+ ---Porcentaje de Automatizacion--- 
+77.000000 
+
+ 
+Nombre de la empresa            :  Holcim 
+Responsable                     :  Fausto Silva 
+Producto estrella               :  Holcim Fuerte 
+Direccion de la empresa	        :  Via la Costa  
+Ciudad                          :  Guayaquil 
+Telefono convencional o celular	:  1700465246 
+Correo electronico empresarial  :  info-ecuador@holcim.com 
+Link de la pagina               :  https://www.holcin.com.ec/ 
+
+ ---Porcentaje de Automatizacion--- 
+51.000000 
+
+ 
+Nombre de la empresa            :  Metalicas Pillapa 
+Responsable                     :  Jorge Pillapa 
+Producto estrella               :  Carroceria Intraprovincia G8 
+Direccion de la empresa	        :  Peleleo 
+Ciudad                          :  Pelileo 
+Telefono convencional o celular	:  998027242 
+Correo electronico empresarial  :  metalicaspillapa@hotmail.com 
+Link de la pagina               :  https://www.metalicaspillapa.com 
 
  ---Porcentaje de Automatizacion--- 
 58.000000 
 
  
-Nombre de la empresa            :  pika 
-Responsable                     :  angel 
-Producto estrella               :  plasticos 
-Direccion de la empresa	        :  gye 
-Ciudad                          :  guayas 
-Telefono convencional o celular	:  23589230 
-Correo electronico empresarial  :  ddd@jjj.com 
-Link de la pagina               :  https://www.pika.com 
+Nombre de la empresa            :  Cerveceria Nacional 
+Responsable                     :  Jose Luis Gonzalez Quiroz 
+Producto estrella               :  Cerveza 
+Direccion de la empresa	        :  Km 16 Via Daule 
+Ciudad                          :  Guayaquil 
+Telefono convencional o celular	:  042162088 
+Correo electronico empresarial  :  servicioalclientecerveceria@gmail.com 
+Link de la pagina               :  https://www.cervecerianacional.ec 
 
  ---Porcentaje de Automatizacion--- 
-62.000000 
+85.000000 
 
  
-Nombre de la empresa            :  jbl 
-Responsable                     :  werwerwer 
-Producto estrella               :  89324fff 
-Direccion de la empresa	        :  erwht24 
-Ciudad                          :  fowvnr3 
-Telefono convencional o celular	:  2394 
-Correo electronico empresarial  :  hh@jbl.com 
-Link de la pagina               :  https://www.jbl.com 
+Nombre de la empresa            :  Logista Libros 
+Responsable                     :  Maria Carmen Ferrer 
+Producto estrella               :  Ventas en linea(Libros Electronicos) 
+Direccion de la empresa	        :  Av. Castilla la Mancha 2 
+Ciudad                          :  Madrid Espana 
+Telefono convencional o celular	:  +34949337533 
+Correo electronico empresarial  :  logistalibros@logista.com 
+Link de la pagina               :  https://www.logistalibros.com 
 
  ---Porcentaje de Automatizacion--- 
-47.000000 
+50.000000 
 
  
-Nombre de la empresa            :  cuco 
-Responsable                     :  qwrqrwf 
-Producto estrella               :  qwefwrgw 
-Direccion de la empresa	        :  efdwefwf 
-Ciudad                          :  wewef 
-Telefono convencional o celular	:  2325 
-Correo electronico empresarial  :  dhhf@ue.com 
-Link de la pagina               :  https://www.sdwef.com 
+Nombre de la empresa            :  Toyota 
+Responsable                     :  Kiichiro Toyoda 
+Producto estrella               :  Toyota Corolla 
+Direccion de la empresa	        :  471-8571 Aichi-ken 
+Ciudad                          :  Tokio 
+Telefono convencional o celular	:  0800-700-7700 
+Correo electronico empresarial  :  newsroom@global.toyota 
+Link de la pagina               :  https://www.toyota.com 
 
  ---Porcentaje de Automatizacion--- 
-100.000000 
+36.000000 
 
  
-Nombre de la empresa            :  hugo 
-Responsable                     :  erewr 
-Producto estrella               :  sdfwerwfsdf 
-Direccion de la empresa	        :  fdfhkfgjorifjw 
-Ciudad                          :  asfvvvv 
-Telefono convencional o celular	:  2526 
-Correo electronico empresarial  :  uweufdsf@sedf.com 
-Link de la pagina               :  https://www.dfs.com 
-
- ---Porcentaje de Automatizacion--- 
-44.000000 
-
- 
-Nombre de la empresa            :  apple  
-Responsable                     :  steve jobs 
-Producto estrella               :  rhwkdjfhsdf 
-Direccion de la empresa	        :  usa 
-Ciudad                          :  usssaaaa 
-Telefono convencional o celular	:  2390423949023 
-Correo electronico empresarial  :  apple@support.com 
-Link de la pagina               :  https://www.erdf.com 
-
- ---Porcentaje de Automatizacion--- 
-68.000000 
-
- 
-Nombre de la empresa            :  marcopolo 
-Responsable                     :  Marcos el polo 
-Producto estrella               :  polo 
-Direccion de la empresa	        :  polo norte 
-Ciudad                          :  polo sur 
-Telefono convencional o celular	:  92342340 
-Correo electronico empresarial  :  polo@hemisferio.com 
-Link de la pagina               :  https://www.dfsdfd.com 
-
- ---Porcentaje de Automatizacion--- 
-60.000000 
-
- 
-Nombre de la empresa            :  uuuuuuuuu 
-Responsable                     :  asdasdasdasd 
-Producto estrella               :  asdasweev2434234 
-Direccion de la empresa	        :  adwfg34  
-Ciudad                          :  wdferfw424535t 
-Telefono convencional o celular	:  290323525 
-Correo electronico empresarial  :  gtt@df.com 
-Link de la pagina               :  https://www.csdfegw.com 
+Nombre de la empresa            :  Porshe AG 
+Responsable                     :  Oliver Blume 
+Producto estrella               :  Automoviles Deportivos 
+Direccion de la empresa	        :  70435, DE 
+Ciudad                          :  Stuttgart, Baden-WÅrttemberg 
+Telefono convencional o celular	:  (+49) 0711 911-0) 
+Correo electronico empresarial  :  info@porsche.de 
+Link de la pagina               :  https://www.porsche.de 
 
  ---Porcentaje de Automatizacion--- 
 64.000000 
 
  
-Nombre de la empresa            :  Natalia 
-Responsable                     :  sfjfoiwioweoif 
-Producto estrella               :  doqwdiowifw 
-Direccion de la empresa	        :  234234 
-Ciudad                          :  sefef345 
-Telefono convencional o celular	:  238982358924 
-Correo electronico empresarial  :  dd@hotmail.com 
-Link de la pagina               :  https://www.uwu.com 
-
- ---Porcentaje de Automatizacion--- 
-53.000000 
-
- 
-Nombre de la empresa            :  Nutria 
-Responsable                     :  ASDAFASDF 
-Producto estrella               :  sdfsfewf 
-Direccion de la empresa	        :  werwefwef 
-Ciudad                          :  23fegeg 
-Telefono convencional o celular	:  3453467 
-Correo electronico empresarial  :  ii@jj.com 
-Link de la pagina               :  https://www.wdfw.com 
-
- ---Porcentaje de Automatizacion--- 
-49.000000 
-
- 
-Nombre de la empresa            :  Sandwich 
-Responsable                     :  pollo 
-Producto estrella               :  asdwieofhwvor 
-Direccion de la empresa	        :  4532dfsdf 
-Ciudad                          :  uhhr 
-Telefono convencional o celular	:  237777 
-Correo electronico empresarial  :  hh@hh.com 
-Link de la pagina               :  https://www.ertwf.com 
+Nombre de la empresa            :  Tonicorp 
+Responsable                     :  Arca Continental y Coca-Cola 
+Producto estrella               :  Yogurt y leche chocolatada 
+Direccion de la empresa	        :  Km 17 Via Perimetral 
+Ciudad                          :  Guayaquil 
+Telefono convencional o celular	:  098 098 4469 
+Correo electronico empresarial  :  servicioalcliente@tonicorp.com 
+Link de la pagina               :  https://www.tonicorp.com 
 
  ---Porcentaje de Automatizacion--- 
 64.000000 
 
  
-Nombre de la empresa            :  YUYU 
-Responsable                     :  UYU 
-Producto estrella               :  asdasdasd 
-Direccion de la empresa	        :  arqwefw 
-Ciudad                          :  3wwerg34 
-Telefono convencional o celular	:  23423423 
-Correo electronico empresarial  :  dd@hotmail.com 
-Link de la pagina               :  https://www.jdfwe.com 
+Nombre de la empresa            :  Nestle 
+Responsable                     :  Mark Schneider 
+Producto estrella               :  Maggi 
+Direccion de la empresa	        :  Avenue Nestle 55 - 1800 
+Ciudad                          :  Vevey 
+Telefono convencional o celular	:  0800 860 015 
+Correo electronico empresarial  :  servicios.consumidor@do.nestle.com 
+Link de la pagina               :  https://www.nestle.com 
 
  ---Porcentaje de Automatizacion--- 
-60.000000 
-
+80.000000 
  
-Nombre de la empresa            :  Kiss 
-Responsable                     :  asdasdasd 
-Producto estrella               :  23rwdsf 
-Direccion de la empresa	        :  sv25fd 
-Ciudad                          :  Santa Elena 
-Telefono convencional o celular	:  252677777 
-Correo electronico empresarial  :  few@fwfc.com 
-Link de la pagina               :  https://www.dfewfw.com 
-
- ---Porcentaje de Automatizacion--- 
-54.000000 
 
  

@@ -760,7 +760,7 @@ void p_graficos()
 	int max_value = 50;
 	int y = 9; 
 	for (int i = 0; i < data.size(); i++) {
-		gotoxy(22,y);cout<< i+1 << " : ";
+		gotoxy(22,y);
 	    for (int j = 0; j < data[i]* 30 / max_value; j++) {
 	        printf("%c",178);
 	    }

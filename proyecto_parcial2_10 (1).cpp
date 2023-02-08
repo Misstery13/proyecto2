@@ -218,7 +218,7 @@ void p_dmenu()
 		break;
 		
 		case 4:
-				gotoxy(41,7);cout<<"GRAFICA DE EMPRESAS";
+				gotoxy(30,7);cout<<"GRAFICAS DEL PORCENTAJE DE AUTOMATIZACION DE LAS EMPRESAS";
 				p_graficos();
 		break;
 		

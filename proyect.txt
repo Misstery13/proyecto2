@@ -8,7 +8,7 @@ Correo electronico empresarial  :  support@razer.com
 Link de la pagina               :  https://www.razer.com 
 
  ---Porcentaje de Automatizacion--- 
-79.000000 
+80.000000 
 
  
 Nombre de la empresa            :  Pronaca 
@@ -21,7 +21,7 @@ Correo electronico empresarial  :  mrpollo@pronaca.com
 Link de la pagina               :  https://www.pronaca.com 
 
  ---Porcentaje de Automatizacion--- 
-51.000000 
+62.000000 
 
  
 Nombre de la empresa            :  Tesla 
@@ -34,7 +34,7 @@ Correo electronico empresarial  :  press@tesla.com
 Link de la pagina               :  https://www.tesla.com/ 
 
  ---Porcentaje de Automatizacion--- 
-86.000000 
+77.000000 
 
  
 Nombre de la empresa            :  Graiman 
@@ -47,20 +47,20 @@ Correo electronico empresarial  :  comunicacion@graiman.com
 Link de la pagina               :  https://www.graiman.com/ 
 
  ---Porcentaje de Automatizacion--- 
-77.000000 
+72.000000 
 
  
 Nombre de la empresa            :  Holcim 
 Responsable                     :  Fausto Silva 
 Producto estrella               :  Holcim Fuerte 
-Direccion de la empresa	        :  Via la Costa  
+Direccion de la empresa	        :  Via la Costa 
 Ciudad                          :  Guayaquil 
 Telefono convencional o celular	:  1700465246 
 Correo electronico empresarial  :  info-ecuador@holcim.com 
-Link de la pagina               :  https://www.holcin.com.ec/ 
+Link de la pagina               :  https://www.holcim.com.ec/ 
 
  ---Porcentaje de Automatizacion--- 
-51.000000 
+77.000000 
 
  
 Nombre de la empresa            :  Metalicas Pillapa 
@@ -73,7 +73,7 @@ Correo electronico empresarial  :  metalicaspillapa@hotmail.com
 Link de la pagina               :  https://www.metalicaspillapa.com 
 
  ---Porcentaje de Automatizacion--- 
-58.000000 
+41.000000 
 
  
 Nombre de la empresa            :  Cerveceria Nacional 
@@ -86,72 +86,19 @@ Correo electronico empresarial  :  servicioalclientecerveceria@gmail.com
 Link de la pagina               :  https://www.cervecerianacional.ec 
 
  ---Porcentaje de Automatizacion--- 
-85.000000 
+45.000000 
 
  
-Nombre de la empresa            :  Logista Libros 
-Responsable                     :  Maria Carmen Ferrer 
-Producto estrella               :  Ventas en linea(Libros Electronicos) 
-Direccion de la empresa	        :  Av. Castilla la Mancha 2 
-Ciudad                          :  Madrid Espana 
-Telefono convencional o celular	:  +34949337533 
-Correo electronico empresarial  :  logistalibros@logista.com 
-Link de la pagina               :  https://www.logistalibros.com 
-
- ---Porcentaje de Automatizacion--- 
-50.000000 
-
- 
-Nombre de la empresa            :  Toyota 
-Responsable                     :  Kiichiro Toyoda 
-Producto estrella               :  Toyota Corolla 
-Direccion de la empresa	        :  471-8571 Aichi-ken 
-Ciudad                          :  Tokio 
-Telefono convencional o celular	:  0800-700-7700 
-Correo electronico empresarial  :  newsroom@global.toyota 
-Link de la pagina               :  https://www.toyota.com 
-
- ---Porcentaje de Automatizacion--- 
-36.000000 
-
- 
-Nombre de la empresa            :  Porshe AG 
+Nombre de la empresa            :  Porsche AG 
 Responsable                     :  Oliver Blume 
 Producto estrella               :  Automoviles Deportivos 
 Direccion de la empresa	        :  70435, DE 
-Ciudad                          :  Stuttgart, Baden-WÅrttemberg 
-Telefono convencional o celular	:  (+49) 0711 911-0) 
+Ciudad                          :  Stuttgart, Baden-Wrttemberg 
+Telefono convencional o celular	:  (+49) 0711 911-0 
 Correo electronico empresarial  :  info@porsche.de 
 Link de la pagina               :  https://www.porsche.de 
 
  ---Porcentaje de Automatizacion--- 
-64.000000 
-
- 
-Nombre de la empresa            :  Tonicorp 
-Responsable                     :  Arca Continental y Coca-Cola 
-Producto estrella               :  Yogurt y leche chocolatada 
-Direccion de la empresa	        :  Km 17 Via Perimetral 
-Ciudad                          :  Guayaquil 
-Telefono convencional o celular	:  098 098 4469 
-Correo electronico empresarial  :  servicioalcliente@tonicorp.com 
-Link de la pagina               :  https://www.tonicorp.com 
-
- ---Porcentaje de Automatizacion--- 
-64.000000 
-
- 
-Nombre de la empresa            :  Nestle 
-Responsable                     :  Mark Schneider 
-Producto estrella               :  Maggi 
-Direccion de la empresa	        :  Avenue Nestle 55 - 1800 
-Ciudad                          :  Vevey 
-Telefono convencional o celular	:  0800 860 015 
-Correo electronico empresarial  :  servicios.consumidor@do.nestle.com 
-Link de la pagina               :  https://www.nestle.com 
-
- ---Porcentaje de Automatizacion--- 
-80.000000 
- 
+73.000000 
 
  

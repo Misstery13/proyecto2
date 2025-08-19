@@ -2,21 +2,6 @@
 
 Aplicación de consola en C++ que permite registrar empresas y calcular su porcentaje de automatización a partir de 5 criterios, además de consultar registros, listar la nómina en forma paginada y visualizar gráficos de barras en la consola.
 
-### 👥 Integrantes
-- Baque De La Cruz Joffre Darío
-- Burgos Mero Erick Ariel
-- Gutiérrez Suarez Mario Miguel
-- Laínez Dominguez Diego Isaías
-- Melena Santander Diana Lucia
-- Nuñez Zamora Miguel Alejandro
-- Pacha Rivera Kleber Slader
-- Rocafuerte Tomala Jair Ariel
-- Rodríguez Catuto Ángel José
-- Salcedo Tomala Sammy Jordy
-- Suarez Ricardo Bryan Estuar
-- Suárez Yagual Vanessa Angelica
-- Tomalí Bernabé Richard Enrique
-- Villaprado Laje Max Anderson
 
 ### 📝 Descripción general
 El sistema gestiona la información básica de una empresa y calcula el promedio porcentual de automatización en base a 5 criterios:
@@ -98,13 +83,6 @@ Notas:
 ### ⚠️ Limitaciones y notas
 - Dependencias de consola de Windows (`windows.h`, `conio.h`); no compila sin cambios en Linux/macOS.
 - Codificación de caracteres: si se observan símbolos extraños en acentos, ajuste la página de códigos de la consola (`chcp 65001`) o configure el IDE/terminal a UTF-8.
-
-### 📝 Pendientes
-- Incrementar el tamaño de la ventana (consultar por switch gráficos) (Diana)
-- Investigar almacenamiento de datos sin sobreescribir (append implementado, validar escenarios) (Bryan)
-- Agregar gráficos estadísticos (Diana)
-- Agregar opción de consultas (Richard)
-- Agregar opción de nóminas (Ángel)
 
 ### 📚 Documentación adicional
 - Uso: `docs/USO.md`

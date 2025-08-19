@@ -105,3 +105,12 @@ Notas:
 - Agregar gráficos estadísticos (Diana)
 - Agregar opción de consultas (Richard)
 - Agregar opción de nóminas (Ángel)
+
+### Documentación adicional
+- Uso: `docs/USO.md`
+- Formato de datos: `docs/FORMATO_DATOS.md`
+- Arquitectura: `docs/ARQUITECTURA.md`
+- Desarrollo: `docs/DESARROLLO.md`
+- Portabilidad: `docs/PORTABILIDAD.md`
+- API: `docs/API.md`
+- Cambios: `CHANGELOG.md`

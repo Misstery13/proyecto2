@@ -114,6 +114,7 @@ Notas:
 - Portabilidad: `docs/PORTABILIDAD.md`
 - API: `docs/API.md`
 - Cambios: `CHANGELOG.md`
+- Capturas: `docs/SCREENSHOTS.md`
 
 ### Licencia
 Distribuido bajo la licencia MIT. Consulte `LICENSE` para más información.

@@ -91,3 +91,14 @@ Nota: Los bloques reales usan el carácter 178 (▓) y el escalado interno del p
 
 5. Verifique que las rutas funcionen correctamente en GitHub.
 
+### Placeholders
+Este repositorio incluye archivos placeholder en `docs/assets/` con la extensión `.placeholder`:
+- `menu.png.placeholder`
+- `ingresos.png.placeholder`
+- `consultas.png.placeholder`
+- `nomina.png.placeholder`
+- `grafico.png.placeholder`
+
+Para reemplazarlos:
+- Elimine el archivo placeholder correspondiente y agregue la captura real con el mismo nombre sin la extensión `.placeholder` (por ejemplo, `menu.png`).
+

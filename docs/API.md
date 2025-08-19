@@ -1,6 +1,6 @@
-## API interna
+## 🧩 API interna
 
-### `float F_Criterios(float a, float b, float c, float d, float e)`
+### ⚙️ `float F_Criterios(float a, float b, float c, float d, float e)`
 - Ubicación: `crite.h`
 - Descripción: devuelve el promedio aritmético simple de los 5 criterios.
 - Parámetros: valores en rango recomendado 0–100.
@@ -10,7 +10,7 @@
 float promedio = F_Criterios(c1, c2, c3, c4, c5);
 ```
 
-### Procedimientos principales (internos)
+### 🔧 Procedimientos principales (internos)
 - `void p_ingreso()`: captura datos, valida y persiste.
 - `void p_consultas()`: consulta por nombre.
 - `void p_nomina()`: listado paginado.

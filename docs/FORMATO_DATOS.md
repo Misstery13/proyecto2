@@ -1,4 +1,4 @@
-## Formato del archivo de datos `proyect.txt`
+## 🗂️ Formato del archivo de datos `proyect.txt`
 
 Cada empresa ocupa un bloque de 13 líneas, en el siguiente orden:
 
@@ -32,7 +32,7 @@ Link de la pagina               :  https://www.razer.com
 
 ```
 
-### Detalles importantes
+### ℹ️ Detalles importantes
 - El porcentaje mostrado en consola puede incluir decimales, pero se guarda redondeado (`round`) en archivo.
 - La opción “Consultas” toma el nombre de empresa desde la línea 1 del bloque y elimina el prefijo fijo `"Nombre de la empresa            :  "` (35 caracteres), convierte a minúsculas y quita espacios para comparar.
 - El orden de los bloques y el espaciado deben mantenerse para que “Consultas”, “Nomina” y “Grafico” funcionen correctamente.

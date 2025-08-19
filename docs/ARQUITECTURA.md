@@ -1,11 +1,11 @@
-## Arquitectura del sistema
+## 🧱 Arquitectura del sistema
 
-### Estructuras de datos
+### 🧩 Estructuras de datos
 - `struct criterios`: contiene `c1..c5` (criterios) y `ct` (promedio calculado).
 - `struct empresa`: campos de identificación (nombre, responsable, etc.) y un miembro `criterios dc`.
 - Instancia global `de` de `empresa` para el flujo de captura.
 
-### Funciones y procedimientos
+### 🧪 Funciones y procedimientos
 - `gotoxy(int x, int y)`: posiciona el cursor en la consola (WinAPI).
 - `p_borde()`: dibuja el marco y separadores de la consola.
 - `p_datos()`: imprime datos de encabezado institucional.
@@ -18,15 +18,15 @@
 - `getIndex(vector<string>, string)`: utilidad para obtener índice; no es utilizada en el flujo principal.
 - `F_Criterios(float a,b,c,d,e)`: en `crite.h`; retorna la media aritmética.
 
-### Flujo principal
+### 🔧 Flujo principal
 `main()` limpia pantalla, configura color, dibuja borde y encabezado, muestra menú y procesa la opción seleccionada; el menú se repite mientras el usuario responda `S/s` a continuar.
 
-### Entrada/Salida
+### 🗃️ Entrada/Salida
 - Mezcla de APIs C (`FILE*`, `fprintf`, `fopen`) y C++ (`ifstream`, `getline`).
 - Persistencia: `proyect.txt` en el directorio de ejecución.
 - Renderizado: consola Windows con caracteres ASCII (límites del cuadro, bloques `178` para barras).
 
-### Consideraciones de diseño
+### 🧠 Consideraciones de diseño
 - Validaciones intensivas para robustez en la captura.
 - Dependencia de consola Windows para coordenadas y entrada sin eco (`getch`).
 - El gráfico usa `max_value = 50` para escalar barras a un ancho cómodo; porcentajes mayores se visualizan más largos, pero el factor de escala es fijo.

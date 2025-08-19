@@ -1,8 +1,8 @@
-## Capturas de pantalla (consola)
+## 🖼️ Capturas de pantalla (consola)
 
 Debido a que la aplicación es de consola en Windows, aquí se incluyen capturas en ASCII que representan el aspecto de la interfaz. También se detalla cómo agregar capturas reales (PNG).
 
-### Menú principal
+### 🧭 Menú principal
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ Universidad Estatal Peninsula de Santa Elena.                               │
@@ -19,7 +19,7 @@ Debido a que la aplicación es de consola en Windows, aquí se incluyen capturas
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Ingresos (ejemplo de campos)
+### ✍️ Ingresos (ejemplo de campos)
 ```
 Nombre de la Empresa: Razer
 Responsable: Min-Liang Tan
@@ -40,7 +40,7 @@ Innovacion                       (0-100%) : 80 %
 Porcentaje de Automatizacion: 80 %
 ```
 
-### Consultas (resultado)
+### 🔎 Consultas (resultado)
 ```
 Nombre de la empresa            :  Razer
 Responsable                     :  Min-Liang Tan
@@ -55,13 +55,13 @@ Link de la pagina               :  https://www.razer.com
 80
 ```
 
-### Nómina (paginación)
+### 🧾 Nómina (paginación)
 ```
 ... (26 líneas por página) ...
 Presiona 's'(siguiente pagina), 'a'(pagina anterior), 'q'(cerrar): _
 ```
 
-### Gráfico (barras ASCII)
+### 📈 Gráfico (barras ASCII)
 ```
 ██████████████████████████ 80%   Razer
 
@@ -74,7 +74,7 @@ Nota: Los bloques reales usan el carácter 178 (▓) y el escalado interno del p
 
 ---
 
-## Cómo agregar capturas reales (PNG)
+## 🧩 Cómo agregar capturas reales (PNG)
 1. Ejecute la aplicación en Windows en una consola lo suficientemente ancha.
 2. Tome capturas con `Win + Shift + S` o la Herramienta Recortes.
 3. Guarde los archivos en `docs/assets/` con estos nombres sugeridos:
@@ -91,7 +91,7 @@ Nota: Los bloques reales usan el carácter 178 (▓) y el escalado interno del p
 
 5. Verifique que las rutas funcionen correctamente en GitHub.
 
-### Placeholders
+### 📂 Placeholders
 Este repositorio incluye archivos placeholder en `docs/assets/` con la extensión `.placeholder`:
 - `menu.png.placeholder`
 - `ingresos.png.placeholder`
